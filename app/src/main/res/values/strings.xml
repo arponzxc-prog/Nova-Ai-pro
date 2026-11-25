@@ -688,8 +688,6 @@
     <string name="theme_sheet_title">চেহারা</string>
     <string name="theme_sheet_hint">একটি থিম বেছে নিন। অটো আপনার লাইট/ডার্ক সেটিং অনুসরণ করে।</string>
     <string name="theme_auto">অটো (লাইট / ডার্ক)</string>
-    <string name="theme_dark">ডার্ক</string>
-    <string name="theme_light">লাইট</string>
     <string name="theme_red">লাল</string>
     <string name="theme_sunset">সানসেট</string>
     <string name="appearance_title">চেহারা</string>
