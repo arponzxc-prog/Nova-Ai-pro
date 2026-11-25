@@ -25,6 +25,7 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.R
+import com.example.accessibility.AccessibilityHelper
 import com.example.accessibility.AssistantAccessibilityService
 import com.example.automation.core.AutomationFeature
 import com.example.automation.core.AutomationSettingsViewModel
@@ -44,7 +45,7 @@ fun AutomationControlScreen(
 
     fun has(p: String) = ContextCompat.checkSelfPermission(context, p) == PackageManager.PERMISSION_GRANTED
     val permRows = listOf(
-        R.string.auto_perm_accessibility to AssistantAccessibilityService.isAccessibilityServiceEnabled(context),
+        R.string.auto_perm_accessibility to AccessibilityHelper.isAccessibilityServiceEnabled(context),
         R.string.auto_perm_contacts to has(Manifest.permission.READ_CONTACTS),
         R.string.auto_perm_call to has(Manifest.permission.CALL_PHONE),
         R.string.auto_perm_location to has(Manifest.permission.ACCESS_COARSE_LOCATION)
