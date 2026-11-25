@@ -62,7 +62,7 @@ class LiveVoiceCoordinator(
     private val models: VoskModelManager,
     private val owner: OwnerVoiceManager,
     /** Runtime failure after start (invalid key, retries exhausted, mic lost, focus lost). Caller shuts down + falls back. */
-    private val onFailed: (@StringRes Int) -> Unit,
+    private val onFailed: (Int) -> Unit,
     /** Idle timeout reached; caller shuts down normally. */
     private val onIdleTimeout: () -> Unit,
     /** Function declarations offered to the model (Step 2). Empty/null keeps Step 1 behaviour (no tools). */
