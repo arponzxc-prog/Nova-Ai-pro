@@ -1,0 +1,109 @@
+{
+ "version": 1,
+ "packages": {
+  "model-en-us": [
+   {
+    "path": "README",
+    "size": 199,
+    "sha256": "c0cf286e4f7783306c5f6469b37db69228fb16803b03cae661edb2d7bba64ebb"
+   },
+   {
+    "path": "am/final.mdl",
+    "size": 15962575,
+    "sha256": "75370a0137f9daf8f469dedd7daa4513ae7a621f03240c6e512e2b50b656a7b6"
+   },
+   {
+    "path": "conf/mfcc.conf",
+    "size": 131,
+    "sha256": "1e2228006d01d805ad1c267fee9f79709ca87ac51bd82b0e3f5c69ba543f0fc4"
+   },
+   {
+    "path": "conf/model.conf",
+    "size": 290,
+    "sha256": "8f14cb1eeb07c762c371db648c6be688d347236155ca0f64fb13b6567a8ce81f"
+   },
+   {
+    "path": "graph/Gr.fst",
+    "size": 24013795,
+    "sha256": "023c8b7e30704a9e37765c635c252e608a02f361235bf94abdcf2a5225d85b20"
+   },
+   {
+    "path": "graph/HCLr.fst",
+    "size": 22416994,
+    "sha256": "5caafba3081e1646545ac6bff0dd7a318e53dcbdc86f237909ce1d2ac1293d34"
+   },
+   {
+    "path": "graph/disambig_tid.int",
+    "size": 102,
+    "sha256": "9ad87cc166d0998f08f758f47a6223a120dfffcbee805c4849c3aa5e6bb3c0fc"
+   },
+   {
+    "path": "graph/phones/word_boundary.int",
+    "size": 1761,
+    "sha256": "da199d9c991e0e84681ddbb34627b915b26302d50a8fdaa23c51e2bc3a50b5c3"
+   },
+   {
+    "path": "ivector/final.dubm",
+    "size": 168048,
+    "sha256": "8c5d7dd69d2122313baaf19f61f35dd3fa18b70c62ac0687e311e1c46e6daca7"
+   },
+   {
+    "path": "ivector/final.ie",
+    "size": 8288887,
+    "sha256": "3f37faf90c375b9e4740b569398b5829ed9cc07d19be6d441f72c3b71d7efcc6"
+   },
+   {
+    "path": "ivector/final.mat",
+    "size": 44975,
+    "sha256": "ddd83586dc5f928cda8738b922c85ffe38fc789cb5f9151a712ca12f37265382"
+   },
+   {
+    "path": "ivector/global_cmvn.stats",
+    "size": 1080,
+    "sha256": "33be09afcc80059847a275c3d043b51f1ab954c7c2438ddbbf4745e8ba144ff9"
+   },
+   {
+    "path": "ivector/online_cmvn.conf",
+    "size": 95,
+    "sha256": "a2f3571754b64297cb7efb2e7ca3df61995c5a45fcbb97188f90613552bb2dfe"
+   },
+   {
+    "path": "ivector/splice.conf",
+    "size": 35,
+    "sha256": "9f0c5f7c82d18eaf25d8bce470efa9f7741f88411fe428774bc0a9bb69a24756"
+   },
+   {
+    "path": "uuid",
+    "size": 37,
+    "sha256": "64c027d194b132b98feb861552d743a94de7dc9076354982995f66bea7de8c8e"
+   }
+  ],
+  "model-spk": [
+   {
+    "path": "README.txt",
+    "size": 5006,
+    "sha256": "df0a2ab600c337475b65fd4d6f29a1b9b18e09fc0211b5a7a4820dce82d4e23a"
+   },
+   {
+    "path": "final.ext.raw",
+    "size": 14929171,
+    "sha256": "d30354474ac719b3cfce58186463302b988cf22ce3afee7237a2da862c4a91d1"
+   },
+   {
+    "path": "mean.vec",
+    "size": 1199,
+    "sha256": "3bc5dfa9479c3aaacf4f45c155e9bd4772785449112566fac23578c09e93bcd7"
+   },
+   {
+    "path": "mfcc.conf",
+    "size": 94,
+    "sha256": "86f4df625b950b81b68864fdefabf26aa65079f84ea20f40e7f9e7ccbb9c456c"
+   },
+   {
+    "path": "transform.mat",
+    "size": 65551,
+    "sha256": "fab14481fb27c41df0f1825afe18530e4f6d128dbb2c239ee86d8d7096e22c33"
+   }
+  ]
+ }
+}

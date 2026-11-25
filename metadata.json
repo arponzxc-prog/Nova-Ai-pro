@@ -1,0 +1,6 @@
+{
+  "name": "Nexa Ai",
+  "description": "Nexa Ai personal assistant app for Android supporting OpenAI, Anthropic, and Gemini models with secure key storage, auto-failover, voice mode, memory, web search, and phone automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

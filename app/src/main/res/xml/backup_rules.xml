@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- এনক্রিপ্টেড API Key স্টোরেজ ব্যাকআপ থেকে বাদ রাখা হয়েছে -->
+    <exclude domain="sharedpref" path="secure_ai_prefs.xml" />
+    <!-- Offline Vosk speech models (~80 MB, re-installable) -->
+    <exclude domain="file" path="vosk/" />
+</full-backup-content>

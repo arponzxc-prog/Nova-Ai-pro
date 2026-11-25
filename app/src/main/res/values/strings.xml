@@ -1,0 +1,720 @@
+<resources>
+    <string name="app_name">NOVA AI</string>
+    <string name="nav_chat">চ্যাট</string>
+    <string name="nav_settings">সেটিংস</string>
+    <string name="nav_models">মডেল তালিকা</string>
+    <string name="new_chat">নতুন চ্যাট</string>
+    <string name="settings_title">সেটিংস</string>
+    <string name="models_title">মডেল ও API Key ম্যানেজমেন্ট</string>
+    <string name="add_model">নতুন মডেল যোগ করুন</string>
+    <string name="edit_model">মডেল এডিট করুন</string>
+    <string name="delete_model">ডিলিট</string>
+    <string name="confirm_delete">আপনি কি নিশ্চিত যে এই মডেলটি ডিলিট করতে চান?</string>
+    <string name="cancel">বাতিল</string>
+    <string name="save">সেভ করুন</string>
+    <string name="test_connection">কানেকশন টেস্ট করুন</string>
+    <string name="connection_success">কানেকশন সফল! API Key ও মডেল সঠিক আছে।</string>
+    <string name="connection_failed">কানেকশন ব্যর্থ: </string>
+    <string name="active_badge">সক্রিয়</string>
+    <string name="set_active">সক্রিয় করুন</string>
+    <string name="no_models_warning">আগে একটি মডেল যোগ করুন!</string>
+    <string name="no_models_subtitle">চ্যাট শুরু করতে সেটিংস থেকে আপনার এআই মডেল ও API Key কনফিগার করুন।</string>
+    <string name="configure_model">মডেল কনফিগার করুন</string>
+    <string name="go_to_settings">সেটিংস-এ যান</string>
+    <string name="welcome_title">আপনার পার্সোনাল এআই সহায়ক</string>
+    <string name="welcome_subtitle">আজ আপনাকে কীভাবে সাহায্য করতে পারি?</string>
+    <string name="suggestion_1">একটি সুন্দর কবিতা লিখে দাও</string>
+    <string name="suggestion_2">ফোনের ব্যাটারি ও নেটওয়ার্ক অবস্থা বলো</string>
+    <string name="suggestion_3">সকাল ৭টার জন্য অ্যালার্ম সেট করো</string>
+    <string name="suggestion_4">টর্চ অন করো</string>
+    <string name="type_message">এখানে মেসেজ লিখুন...</string>
+    <string name="copied_to_clipboard">ক্লিপবোর্ডে কপি করা হয়েছে</string>
+    <string name="theme_setting">অ্যাপ থিম</string>
+    <string name="theme_system">সিস্টেম ডিফল্ট</string>
+    <string name="theme_light">লাইট (Light)</string>
+    <string name="theme_dark">ডার্ক (Dark)</string>
+    <string name="system_prompt_title">সিস্টেম প্রম্পট (System Prompt)</string>
+    <string name="system_prompt_hint">এই প্রম্পটটি প্রতিটি এআই চ্যাট রিকোয়েস্টের শুরুতে পাঠানো হবে।</string>
+    <string name="system_prompt_default">তুমি একজন অত্যন্ত সাহায্যকারী, বুদ্ধিমান এবং বন্ধুত্বপূর্ণ পার্সোনাল এআই অ্যাসিস্ট্যান্ট। সর্বদা সঠিক ও সুন্দরভাবে ব্যবহারকারীর ভাষায় উত্তর দেবে।</string>
+    <string name="reset">রিসেট</string>
+    <string name="about_app">অ্যাপ সম্পর্কে</string>
+    <string name="app_version">ভার্সন ৬.০.০ (NOVA AI - পূর্ণাঙ্গ সংস্করণ)</string>
+    <string name="display_name">ডিসপ্লে নাম (যেমন: My OpenAI)</string>
+    <string name="provider_type">প্রোভাইডার টাইপ</string>
+    <string name="base_url">বেস ইউআরএল (Base URL)</string>
+    <string name="api_key">এপিআই কি (API Key)</string>
+    <string name="model_name">মডেল নাম (যেমন: gpt-4o, claude-3-5-sonnet)</string>
+    <string name="temperature">টেম্পারেচার (Temperature)</string>
+    <string name="error_required_field">এই ফিল্ডটি ফাঁকা রাখা যাবে না</string>
+    <string name="error_invalid_url">সঠিক URL দিন</string>
+    <string name="retry">পুনরায় চেষ্টা</string>
+    <string name="ai_typing">এআই টাইপ করছে...</string>
+    <string name="select_model">মডেল নির্বাচন করুন</string>
+    <string name="manage_models">মডেল ম্যানেজ করুন</string>
+    <string name="no_model_label">কোনো মডেল নেই</string>
+    <string name="add_model_short">মডেল যোগ করুন</string>
+
+    <!-- ধাপ ২: ভয়েস ইনপুট ও পারমিশন -->
+    <string name="voice_input_desc">ভয়েস মোড</string>
+    <string name="mic_permission_title">মাইক্রোফোন ব্যবহারের অনুমতি</string>
+    <string name="mic_permission_rationale">ভয়েসের মাধ্যমে কথা বলে AI-কে প্রশ্ন করার জন্য অ্যাপটির আপনার ডিভাইসের মাইক্রোফোন ব্যবহারের অনুমতি প্রয়োজন।</string>
+    <string name="mic_permission_allow">অনুমতি দিন</string>
+    <string name="mic_permission_denied_polite">মাইক্রোফোন অনুমতি না দেওয়ায় ভয়েস ইনপুট চালু করা যায়নি। আপনি টেক্সট লিখে চ্যাট করতে পারেন অথবা পরে অনুমতি দিতে পারেন।</string>
+    <string name="mic_permission_permanently_denied">মাইক্রোফোন অনুমতি স্থায়ীভাবে বন্ধ করা হয়েছে। ভয়েস ব্যবহার করতে অ্যাপ সেটিংস থেকে মাইক্রোফোন অনুমতি চালু করুন।</string>
+    <string name="open_app_settings">সেটিংস খুলুন</string>
+    <string name="speech_error_no_match">কথা স্পষ্টভাবে বোঝা যায়নি। অনুগ্রহ করে আবার বলুন।</string>
+    <string name="speech_error_network">ইন্টারনেট সংযোগ নেই। ভয়েস শনাক্ত করতে নেটওয়ার্ক প্রয়োজন।</string>
+    <string name="speech_error_busy">স্পিচ রিকগনাইজার এখন ব্যস্ত আছে। একটু পর আবার চেষ্টা করুন।</string>
+    <string name="speech_error_no_service">এই ডিভাইসে স্পিচ রিকগনিশন সার্ভিস পাওয়া যায়নি। অনুগ্রহ করে Google অ্যাপ ইনস্টল বা আপডেট করুন।</string>
+    <string name="speech_error_audio">অডিও রেকর্ড করতে সমস্যা হয়েছে। অন্য কোনো অ্যাপ মাইক্রোফোন ব্যবহার করছে কিনা দেখুন।</string>
+    <string name="speech_error_unknown">ভয়েস শনাক্তকরণে অজানা সমস্যা হয়েছে। আবার চেষ্টা করুন।</string>
+
+    <!-- ধাপ ২: ভয়েস মোড স্ক্রিন -->
+    <string name="voice_mode_title">ভয়েস অ্যাসিস্ট্যান্ট</string>
+    <string name="voice_state_idle">কথা বলতে মাইকে ট্যাপ করুন</string>
+    <string name="voice_state_listening">শুনছি... বলুন</string>
+    <string name="voice_state_thinking">এআই চিন্তা করছে...</string>
+    <string name="voice_state_speaking">উত্তর বলছে...</string>
+    <string name="voice_state_error">সমস্যা হয়েছে</string>
+    <string name="voice_continuous_label">কথোপকথন চালু রাখুন</string>
+    <string name="voice_stop_interrupt">থামান</string>
+    <string name="voice_close">বন্ধ করুন</string>
+    <string name="voice_tap_to_speak">আবার বলুন</string>
+    <string name="voice_transcript_placeholder">আপনার কথা এখানে লাইভ দেখা যাবে...</string>
+    <string name="voice_you_said">আপনি বলেছেন:</string>
+    <string name="voice_ai_reply">এআই উত্তর:</string>
+
+    <!-- ধাপ ২: TTS -->
+    <string name="speak_message">পড়ে শোনান</string>
+    <string name="stop_speaking">পড়া থামান</string>
+    <string name="tts_code_spoken">কোড দেখানো হয়েছে।</string>
+    <string name="tts_missing_bengali_title">বাংলা ভয়েস ডেটা পাওয়া যায়নি</string>
+    <string name="tts_missing_bengali_message">আপনার ডিভাইসের Text-to-Speech ইঞ্জিনে বাংলা (bn-BD) ভয়েস ডেটা ইনস্টল করা নেই। আপনি চাইলে TTS সেটিংস থেকে বাংলা ভয়েস ডাউনলোড করে নিতে পারেন।</string>
+    <string name="tts_open_settings">TTS সেটিংস খুলুন</string>
+    <string name="voice_settings_title">ভয়েস ও অডিও সেটিংস</string>
+    <string name="speech_language_title">ভয়েস ইনপুট ভাষা</string>
+    <string name="lang_auto">অটো (Auto)</string>
+    <string name="lang_bengali">বাংলা (bn-BD)</string>
+    <string name="lang_english">ইংরেজি (en-US)</string>
+    <string name="tts_rate_title">কথার গতি (Speech Rate)</string>
+    <string name="tts_pitch_title">কণ্ঠের সুর (Pitch)</string>
+    <string name="auto_speak_title">ভয়েস ইনপুটে অটো-স্পিক</string>
+    <string name="auto_speak_subtitle">ভয়েসে প্রশ্ন করলে AI উত্তর পড়ে শোনাবে</string>
+
+    <!-- ধাপ ২: চ্যাট হিস্টোরি ও সার্চ -->
+    <string name="history_drawer_title">চ্যাট হিস্টোরি</string>
+    <string name="search_chats_hint">সব চ্যাটে খুঁজুন...</string>
+    <string name="no_history_yet">এখনো কোনো সেভ করা চ্যাট নেই</string>
+    <string name="no_search_results">কোনো ফলাফল পাওয়া যায়নি</string>
+    <string name="group_pinned">পিন করা</string>
+    <string name="group_today">আজ</string>
+    <string name="group_yesterday">গতকাল</string>
+    <string name="group_last_7_days">আগের ৭ দিন</string>
+    <string name="group_older">পুরোনো</string>
+    <string name="rename_chat">নাম বদলান</string>
+    <string name="rename_chat_hint">নতুন নাম লিখুন</string>
+    <string name="pin_chat">পিন করুন</string>
+    <string name="unpin_chat">আনপিন করুন</string>
+    <string name="delete_chat">মুছে ফেলুন</string>
+    <string name="delete_chat_confirm">আপনি কি নিশ্চিত যে এই চ্যাটটি মুছে ফেলতে চান?</string>
+    <string name="history_settings_title">চ্যাট হিস্টোরি সেটিংস</string>
+    <string name="auto_title_ai_title">AI দিয়ে অটো টাইটেল</string>
+    <string name="auto_title_ai_subtitle">প্রথম মেসেজের পর AI দিয়ে চ্যাটের শিরোনাম তৈরি করুন</string>
+    <string name="clear_all_history">সব হিস্টোরি মুছুন</string>
+    <string name="clear_all_history_confirm">আপনি কি নিশ্চিত যে সব চ্যাট হিস্টোরি চিরতরে মুছে ফেলতে চান? এটি আর ফিরিয়ে আনা যাবে না।</string>
+    <string name="clear_all_done">সব চ্যাট হিস্টোরি মুছে ফেলা হয়েছে</string>
+    <string name="copy_code">কোড কপি</string>
+    <string name="menu_history">হিস্টোরি মেনু</string>
+
+    <!-- ধাপ ৩: ফোন অ্যাকশন, টুল, কনফার্মেশন, পারমিশন এবং অ্যাকশন লগ -->
+    <string name="supports_tools_label">টুল সাপোর্ট করে (Function Calling)</string>
+    <string name="supports_tools_subtitle">ফোন অ্যাকশন ব্যবহার করতে এই অপশন চালু রাখুন</string>
+    <string name="tools_not_supported_notice">নির্বাচিত মডেলটি টুল কলিং সাপোর্ট করে না, তাই সাধারণ চ্যাট হিসেবে চালানো হয়েছে।</string>
+    <string name="agent_max_steps_reached">সর্বোচ্চ ৫ ধাপের সীমা পূর্ণ হয়েছে। নিরাপত্তা ও অসীম লুপ ঠেকাতে কাজটি এখানে থামানো হয়েছে।</string>
+
+    <string name="action_status_pending">অপেক্ষায়</string>
+    <string name="action_status_waiting_confirm">কনফার্মেশনের অপেক্ষায়</string>
+    <string name="action_status_running">চলছে...</string>
+    <string name="action_status_success">সফল</string>
+    <string name="action_status_failed">ব্যর্থ</string>
+    <string name="action_status_cancelled">বাতিল</string>
+
+    <string name="confirm_action_title">গুরুত্বপূর্ণ অ্যাকশন কনফার্মেশন</string>
+    <string name="confirm_high_risk_warning">এই কাজটি করার আগে আপনার নিশ্চিতকরণ প্রয়োজন।</string>
+    <string name="confirm_recipient_label">প্রাপক:</string>
+    <string name="confirm_number_label">নম্বর:</string>
+    <string name="confirm_sms_body_label">SMS-এর লেখা:</string>
+    <string name="confirm_action_button">নিশ্চিত করুন</string>
+    <string name="confirm_edit_button">সম্পাদনা</string>
+    <string name="confirm_timeout_hint">%1$d সেকেন্ডের মধ্যে সাড়া না দিলে অটো-বাতিল হবে</string>
+    <string name="voice_confirm_listening">হ্যাঁ বা না বলুন...</string>
+    <string name="voice_confirm_call_prompt">%1$s-কে কল করব? হ্যাঁ বা না বলুন।</string>
+    <string name="voice_confirm_sms_prompt">%1$s-কে মেসেজ পাঠাব: %2$s। পাঠাতে হ্যাঁ বা না বলুন।</string>
+    <string name="voice_confirm_generic_prompt">এই কাজটি (%1$s) কি করব? হ্যাঁ বা না বলুন।</string>
+
+    <string name="contact_picker_title">একাধিক কন্ট্যাক্ট পাওয়া গেছে</string>
+    <string name="contact_picker_subtitle">অনুগ্রহ করে সঠিক কন্ট্যাক্টটি বেছে নিন:</string>
+
+    <string name="tool_permission_title">টুল চালানোর অনুমতি</string>
+    <string name="tool_permission_allow">অনুমতি দিন</string>
+    <string name="perm_desc_call_phone">সরাসরি ফোন কল করার জন্য ফোনের কল পারমিশন প্রয়োজন।</string>
+    <string name="perm_desc_send_sms">SMS পাঠানোর জন্য মেসেজ (SMS) পারমিশন প্রয়োজন।</string>
+    <string name="perm_desc_read_contacts">নাম দিয়ে কন্ট্যাক্ট নম্বর খুঁজে বের করার জন্য কন্ট্যাক্টস পারমিশন প্রয়োজন।</string>
+    <string name="perm_desc_write_settings">স্ক্রিনের ব্রাইটনেস পরিবর্তন করার জন্য সিস্টেম সেটিংস পরিবর্তনের অনুমতি প্রয়োজন।</string>
+
+    <string name="tools_settings_title">ফোন অ্যাকশন ও টুল সেটিংস</string>
+    <string name="tools_settings_subtitle">টুল চালু/বন্ধ ও নিরাপত্তা কনফার্মেশন নিয়ন্ত্রণ</string>
+    <string name="confirm_medium_risk_title">মাঝারি ঝুঁকির কাজে জিজ্ঞেস করো</string>
+    <string name="confirm_medium_risk_subtitle">অ্যালার্ম, টাইমার, ক্যালেন্ডার বা WhatsApp খোলার আগে কনফার্মেশন নেবে</string>
+    <string name="log_sensitive_title">লগে সংবেদনশীল তথ্য রাখুন</string>
+    <string name="log_sensitive_subtitle">বন্ধ থাকলে SMS-এর পুরো লেখা লগে সংরক্ষিত হবে না</string>
+    <string name="dual_sim_title">ডিফল্ট সিম নির্বাচন (Dual SIM)</string>
+    <string name="dual_sim_auto">সিস্টেম ডিফল্ট</string>
+    <string name="dual_sim_1">সিম ১ (SIM 1)</string>
+    <string name="dual_sim_2">সিম ২ (SIM 2)</string>
+    <string name="individual_tools_header">টুলসমূহ চালু/বন্ধ</string>
+
+    <string name="permissions_screen_title">পারমিশন</string>
+    <string name="permissions_screen_subtitle">কোন কোন পারমিশন দেওয়া আছে দেখুন বা অনুমতি দিন</string>
+    <string name="permission_granted">দেওয়া হয়েছে</string>
+    <string name="permission_not_granted">দেওয়া হয়নি</string>
+    <string name="permission_grant_btn">অনুমতি দিন</string>
+
+    <string name="action_log_title">অ্যাকশন লগ</string>
+    <string name="action_log_subtitle">এআই দ্বারা চালানো সব ফোন অ্যাকশনের ইতিহাস</string>
+    <string name="action_log_empty">এখনো কোনো ফোন অ্যাকশন চালানো হয়নি</string>
+    <string name="clear_action_logs">সব অ্যাকশন লগ মুছুন</string>
+    <string name="clear_action_logs_confirm">আপনি কি নিশ্চিত যে সব অ্যাকশন লগ মুছে ফেলতে চান?</string>
+    <string name="action_logs_cleared">সব অ্যাকশন লগ মুছে ফেলা হয়েছে</string>
+
+    <string name="risk_low">কম ঝুঁকি</string>
+    <string name="risk_medium">মাঝারি ঝুঁকি</string>
+    <string name="risk_high">উচ্চ ঝুঁকি</string>
+
+    <!-- ধাপ ৪: ব্যাকগ্রাউন্ড সার্ভিস, Wake Word, ওভারলে, হেলথ চেক ও ব্যাটারি গাইড -->
+    <string name="app_version_4">ভার্সন ৬.০.০ (NOVA AI - ব্যাকগ্রাউন্ড ও Wake Word)</string>
+    <string name="qs_tile_label">NOVA AI</string>
+
+    <string name="bg_settings_title">ব্যাকগ্রাউন্ড ও Wake Word</string>
+    <string name="bg_settings_subtitle">ব্যাকগ্রাউন্ড লিসেনিং, Wake Word, ফ্লোটিং বাবল ও সময়সূচি</string>
+    <string name="bg_listening_master_title">ব্যাকগ্রাউন্ড লিসেনিং চালু</string>
+    <string name="bg_listening_master_subtitle">অন্য অ্যাপ ব্যবহারের সময়ও অ্যাসিস্ট্যান্ট সক্রিয় রাখুন</string>
+    <string name="bg_service_running">সার্ভিস চলছে</string>
+    <string name="bg_service_stopped">সার্ভিস বন্ধ আছে</string>
+    <string name="bg_android12_hint">Android 12+ নীতিমালা অনুযায়ী মাইক্রোফোন সার্ভিস অ্যাপ খোলা অবস্থায় থেকেই শুরু করতে হয়।</string>
+
+    <string name="notif_channel_assistant_name">অ্যাসিস্ট্যান্ট ব্যাকগ্রাউন্ড সার্ভিস</string>
+    <string name="notif_channel_assistant_desc">ব্যাকগ্রাউন্ড লিসেনিং ও ভয়েস অ্যাসিস্ট্যান্টের স্থায়ী অবস্থা</string>
+    <string name="notif_channel_boot_name">বুট ও রিমাইন্ডার</string>
+    <string name="notif_title_listening">অ্যাসিস্ট্যান্ট শুনছে (%1$s)</string>
+    <string name="notif_title_ready">অ্যাসিস্ট্যান্ট প্রস্তুত</string>
+    <string name="notif_title_paused">লিসেনিং বন্ধ আছে</string>
+    <string name="notif_text_listening">কথা বলতে Wake Word বলুন অথবা \"কথা বলুন\" চাপুন।</string>
+    <string name="notif_text_paused_user">মাইক পজ করা আছে — বর্তমানে কোনো শব্দ শোনা হচ্ছে না।</string>
+    <string name="notif_text_paused_call">ফোন কল বা অন্য অ্যাপ মাইক ব্যবহার করায় লিসেনিং সাময়িক বন্ধ।</string>
+    <string name="notif_text_paused_battery">চার্জারে না থাকায় Wake Word সাময়িক বন্ধ আছে।</string>
+    <string name="notif_text_paused_schedule">রাতের নির্ধারিত বিরতিতে লিসেনিং বন্ধ আছে।</string>
+    <string name="notif_action_pause">বিরতি</string>
+    <string name="notif_action_resume">চালু</string>
+    <string name="notif_action_speak">কথা বলুন</string>
+    <string name="notif_action_open_app">অ্যাপ খোলো</string>
+    <string name="notif_action_stop">বন্ধ করো</string>
+
+    <string name="boot_notif_title">NOVA AI চালু করতে ট্যাপ করুন</string>
+    <string name="boot_notif_body">Android 14+ নিরাপত্তার কারণে রিস্টার্টের পর মাইক সার্ভিস সরাসরি শুরু করা যায় না। চালু করতে এখানে ট্যাপ করুন।</string>
+    <string name="boot_reminder_title">রিস্টার্টের পর চালু করার নোটিফিকেশন</string>
+    <string name="boot_reminder_subtitle">ফোন রিস্টার্ট হলে অ্যাসিস্ট্যান্ট চালু করার একটি রিমাইন্ডার নোটিফিকেশন দেখাবে</string>
+
+    <string name="wake_word_section_title">Wake Word (ডিভাইসেই চলে)</string>
+    <string name="wake_word_phrase_label">Wake Word বাক্য (ইংরেজি)</string>
+    <string name="wake_word_threshold_label">সংবেদনশীলতা (Threshold)</string>
+    <string name="wake_word_test_btn">Wake Word লাইভ টেস্ট স্ক্রিন</string>
+    <string name="wake_word_test_title">Wake Word টেস্ট</string>
+    <string name="wake_word_status_listening">শুনছে (ডিভাইসে 16kHz মনো)</string>
+    <string name="wake_word_status_cooldown">ডিটেক্ট হয়েছে (২ সেকেন্ড বিরতি)</string>
+    <string name="wake_word_status_missing_aar">sherpa-onnx লাইব্রেরি (AAR) প্রজেক্টে যোগ করা হয়নি</string>
+    <string name="wake_word_status_missing_model">মডেল ফাইল (assets/sherpa-onnx-kws/) পাওয়া যায়নি</string>
+    <string name="wake_word_status_stopped">ইঞ্জিন বন্ধ আছে</string>
+    <string name="wake_word_missing_hint">মডেল বা লাইব্রেরি না থাকলে অ্যাপ ক্র্যাশ করবে না; আপনি ফ্লোটিং বাবল, নোটিফিকেশন বা Quick Settings টাইল দিয়ে ভয়েস সেশন চালাতে পারবেন।</string>
+    <string name="wake_word_simulate_trigger">টেস্ট ট্রিগার চালান</string>
+    <string name="wake_word_live_audio_level">লাইভ মাইক্রোফোন অডিও লেভেল</string>
+    <string name="wake_word_detections_log">সাম্প্রতিক ডিটেকশন</string>
+    <string name="wake_word_no_detections">এখনো কোনো Wake Word ডিটেক্ট হয়নি</string>
+
+    <string name="privacy_notice_title">গোপনীয়তা ও অডিও তথ্য</string>
+    <string name="privacy_notice_body">• Wake Word শনাক্তকরণ সম্পূর্ণ আপনার ডিভাইসেই চলে — কোনো অডিও ডিস্কে সেভ হয় না বা সার্ভারে যায় না।\n• জেগে ওঠার পরেই ফোনের SpeechRecognizer চালু হয়, যা ভয়েস থেকে লেখা তৈরি করতে ফোনের স্পিচ সার্ভিস (নেটওয়ার্ক ব্যবহার হতে পারে) ব্যবহার করে।</string>
+
+    <string name="triggers_section_title">দ্রুত চালু করার উপায়</string>
+    <string name="bubble_toggle_title">ফ্লোটিং বাবল (Floating Bubble)</string>
+    <string name="bubble_toggle_subtitle">স্ক্রিনের পাশে ভাসমান বোতাম, ট্যাপ করলেই ভয়েস সেশন শুরু</string>
+    <string name="chime_toggle_title">চাইম শব্দ ও ভাইব্রেশন</string>
+    <string name="chime_toggle_subtitle">জেগে ওঠার সময় মৃদু শব্দ ও ভাইব্রেশন দেবে</string>
+    <string name="add_qs_tile_btn">Quick Settings টাইল যোগ করুন</string>
+    <string name="add_qs_tile_subtitle">নোটিফিকেশন প্যানেল থেকে এক ট্যাপে ভয়েস সেশন</string>
+    <string name="qs_tile_added_msg">Quick Settings টাইল যোগ করা হয়েছে</string>
+    <string name="qs_tile_manual_hint">দ্রুত সেটিংস প্যানেল নিচে নামিয়ে পেন্সিল/এডিট আইকন থেকে \"NOVA AI\" টাইলটি টেনে উপরে যোগ করুন।</string>
+    <string name="default_assistant_btn">ডিফল্ট ডিজিটাল অ্যাসিস্ট্যান্ট সেট করুন</string>
+    <string name="default_assistant_subtitle">হোম বাটন লং-প্রেস বা অ্যাসিস্ট জেসচারে চালু করতে Android সেটিংসে বেছে নিন</string>
+
+    <string name="lockscreen_section_title">লক স্ক্রিন নিরাপত্তা</string>
+    <string name="lockscreen_low_risk_title">লক অবস্থায় সাধারণ (LOW ঝুঁকি) কাজ চলবে</string>
+    <string name="lockscreen_low_risk_subtitle">বন্ধ থাকলে লক অবস্থায় কোনো টুলই চলবে না। কল/SMS-এর মতো HIGH ঝুঁকির কাজ কখনোই লক অবস্থায় চলবে না।</string>
+    <string name="lockscreen_unlock_required">ফোন লক আছে। এই কাজটি করতে অনুগ্রহ করে ফোন আনলক করুন।</string>
+
+    <string name="battery_schedule_section_title">ব্যাটারি ও সময়সূচি</string>
+    <string name="charging_only_title">শুধু চার্জে থাকলে Wake Word চালু</string>
+    <string name="charging_only_subtitle">ব্যাটারি বাঁচাতে চার্জার খুলে নিলে Wake Word থামবে</string>
+    <string name="night_schedule_title">রাতে বন্ধ রাখুন (সময়সূচি)</string>
+    <string name="night_schedule_subtitle">রাত %1$02d:00 থেকে সকাল %2$02d:00 পর্যন্ত লিসেনিং বন্ধ</string>
+    <string name="night_start_hour_label">শুরুর সময় (রাত): %1$02d:00</string>
+    <string name="night_end_hour_label">শেষ সময় (সকাল): %1$02d:00</string>
+
+    <string name="overlay_open_in_app">অ্যাপে খোলো</string>
+    <string name="overlay_tap_to_stop">থামুন</string>
+    <string name="overlay_auto_close_hint">নীরব থাকলে %1$d সেকেন্ড পর বন্ধ হবে</string>
+
+    <string name="health_check_title">হেলথ চেক</string>
+    <string name="health_check_subtitle">সব পারমিশন, ব্যাটারি ও সার্ভিসের অবস্থা একসাথে দেখুন</string>
+    <string name="health_status_ok">ঠিক আছে</string>
+    <string name="health_status_issue">ঠিক করা দরকার</string>
+    <string name="health_fix_btn">ঠিক করুন</string>
+    <string name="health_mic_title">মাইক্রোফোন পারমিশন</string>
+    <string name="health_notif_title">নোটিফিকেশন পারমিশন</string>
+    <string name="health_overlay_title">অন্য অ্যাপের ওপর প্রদর্শন (Overlay)</string>
+    <string name="health_battery_title">ব্যাটারি অপ্টিমাইজেশন মুক্ত</string>
+    <string name="health_service_title">ব্যাকগ্রাউন্ড সার্ভিস অবস্থা</string>
+    <string name="health_wakeword_title">Wake Word ইঞ্জিন অবস্থা</string>
+
+    <string name="battery_guide_title">ব্যাটারি অপ্টিমাইজেশন গাইড</string>
+    <string name="battery_guide_subtitle">ব্যাকগ্রাউন্ডে টিকে থাকার জন্য ফোনের সেটিংস নির্দেশিকা</string>
+    <string name="battery_detected_oem">শনাক্তকৃত ফোন ব্র্যান্ড: %1$s</string>
+    <string name="battery_ignore_opt_btn">ব্যাটারি অপ্টিমাইজেশন বন্ধ করুন</string>
+    <string name="battery_open_oem_settings_btn">ফোনের অটো-স্টার্ট / ব্যাটারি সেটিংস খুলুন</string>
+    <string name="battery_dialog_title">ব্যাটারি অপ্টিমাইজেশন থেকে বাদ দিন</string>
+    <string name="battery_dialog_message">ব্যাকগ্রাউন্ডে অ্যাসিস্ট্যান্ট ও বাবল যাতে সিস্টেম বন্ধ না করে দেয়, সেজন্য \"Don\'t optimize / Unrestricted\" নির্বাচন করার অনুমতি প্রয়োজন।</string>
+    <string name="overlay_dialog_title">অন্য অ্যাপের ওপর প্রদর্শন অনুমতি</string>
+    <string name="overlay_dialog_message">ফ্লোটিং বাবল এবং অন্য অ্যাপ ব্যবহারের সময় ভয়েস কার্ড দেখাতে \"Display over other apps\" অনুমতি প্রয়োজন।</string>
+    <string name="notif_dialog_title">নোটিফিকেশন অনুমতি প্রয়োজন</string>
+    <string name="notif_dialog_message">ব্যাকগ্রাউন্ড সার্ভিস চালু রাখার স্থায়ী নোটিফিকেশন এবং পজ/চালু বাটন দেখাতে Android 13+ এ নোটিফিকেশন অনুমতি প্রয়োজন।</string>
+
+    <!-- ধাপ ৫: Accessibility Service, Notification Reader, Screen Understanding ও নিরাপত্তা -->
+    <string name="app_version_5">NOVA AI 6.0.0 — ডেভেলপার: ARPON</string>
+    <string name="accessibility_service_label">NOVA AI স্ক্রিন সহায়ক</string>
+    <string name="accessibility_service_description">ভয়েস বা চ্যাট নির্দেশে বর্তমান স্ক্রিন পড়া, নিরাপদ বাটন ট্যাপ, লেখা বসানো এবং WhatsApp রেসিপি চালানোর জন্য ব্যবহৃত হয়। ব্যাংকিং ও পাসওয়ার্ড অ্যাপে কাজ করে না।</string>
+    <string name="notification_listener_label">NOVA AI নোটিফিকেশন পাঠক</string>
+
+    <string name="supports_vision_label">ভিশন / ছবি সাপোর্ট করে (Screenshot AI)</string>
+    <string name="supports_vision_subtitle">মডেলটি ছবি বুঝতে পারলে (যেমন GPT-4o, Gemini, Claude) এটি চালু করুন</string>
+
+    <string name="a11y_settings_card_title">Accessibility ও স্ক্রিন অ্যাসিস্ট্যান্ট</string>
+    <string name="a11y_settings_card_subtitle">অন্য অ্যাপের স্ক্রিন পড়া ও নিয়ন্ত্রণের জন্য সার্ভিস গাইড</string>
+    <string name="notif_reader_card_title">নোটিফিকেশন পড়া (Notification Access)</string>
+    <string name="notif_reader_card_subtitle">সাম্প্রতিক নোটিফিকেশন সারাংশ, অ্যাপ ফিল্টার ও অনুমতি গাইড</string>
+    <string name="screen_security_card_title">স্ক্রিন নিরাপত্তা, ব্লকলিস্ট ও UI সীমা</string>
+    <string name="screen_security_card_subtitle">সংবেদনশীল অ্যাপ ব্লকলিস্ট, অ্যালাউলিস্ট, ভিশন ও ধাপ-সীমা</string>
+
+    <string name="a11y_status_enabled">Accessibility সার্ভিস চালু আছে</string>
+    <string name="a11y_status_disabled">Accessibility সার্ভিস বন্ধ আছে</string>
+    <string name="a11y_killed_warning">সতর্কতা: পূর্বে চালু থাকলেও সিস্টেম বা OEM ব্যাটারি অপ্টিমাইজেশনের কারণে Accessibility সার্ভিস বন্ধ হয়ে গেছে। আবার চালু করুন এবং ব্যাটারি গাইড দেখুন।</string>
+    <string name="a11y_guide_steps_title">কীভাবে চালু করবেন (ধাপে ধাপে)</string>
+    <string name="a11y_guide_steps_body">১. নিচের \"Accessibility সেটিংস খুলুন\" বাটনে ট্যাপ করুন।\n২. তালিকায় \"Downloaded apps / Installed services\" এর ভেতর \"NOVA AI স্ক্রিন সহায়ক\" খুঁজুন।\n৩. সার্ভিসটি চালু (Allow) করে নিশ্চিত করুন।</string>
+    <string name="a11y_restricted_title">Android 13+ \"Restricted settings\" সমস্যা?</string>
+    <string name="a11y_restricted_body">যদি সাইডলোড করা APK-তে Accessibility বাটন ধূসর (গ্রেড-আউট) থাকে বা \"Restricted setting\" দেখায়:\n১. \"অ্যাপ ইনফো খুলুন\" চাপুন।\n২. ওপরের ডান কোণায় ৩টি ডট (⋮) মেনুতে ট্যাপ করুন।\n৩. \"Allow restricted settings\" বেছে নিন এবং পিন/ফিঙ্গারপ্রিন্ট দিন।\n৪. এরপর Accessibility সেটিংসে ফিরে এসে সার্ভিস চালু করুন।</string>
+    <string name="open_a11y_settings_btn">Accessibility সেটিংস খুলুন</string>
+    <string name="open_app_info_btn">অ্যাপ ইনফো খুলুন</string>
+
+    <string name="notif_access_status_enabled">Notification Access চালু আছে</string>
+    <string name="notif_access_status_disabled">Notification Access বন্ধ আছে</string>
+    <string name="notif_guide_steps_title">Notification Access কীভাবে চালু করবেন</string>
+    <string name="notif_guide_steps_body">১. নিচের \"Notification Access খুলুন\" বাটনে ট্যাপ করুন।\n২. \"NOVA AI নোটিফিকেশন পাঠক\" বেছে নিয়ে অনুমতি দিন।\n৩. Android 13+ এ গ্রেড-আউট দেখালে App Info → ৩ ডট (⋮) → \"Allow restricted settings\" দিন।</string>
+    <string name="open_notif_access_btn">Notification Access খুলুন</string>
+    <string name="notif_auto_read_title">নতুন নোটিফিকেশন এলে নিজে থেকে পড়ে শোনান</string>
+    <string name="notif_auto_read_subtitle">ডিফল্টে বন্ধ। চালু থাকলে অনুমোদিত অ্যাপের নতুন নোটিফিকেশন TTS-এ শোনাবে (OTP/ব্যাংক বাদ দিয়ে)।</string>
+    <string name="notif_memory_privacy">• নোটিফিকেশন কেবল অস্থায়ীভাবে র‍্যামে (সর্বোচ্চ ৫০টি, ২ ঘণ্টা পর্যন্ত) রাখা হয় — কখনো ডিস্কে সেভ হয় না।\n• ব্যাংকিং, মোবাইল ওয়ালেট এবং OTP/পিন ধরনের নোটিফিকেশন স্বয়ংক্রিয়ভাবে বাদ দেওয়া হয়।</string>
+    <string name="notif_filter_title">কোন অ্যাপের নোটিফিকেশন পড়বে (ফিল্টার)</string>
+    <string name="notif_filter_all_hint">কোনো নির্দিষ্ট অ্যাপ বেছে না নিলে ব্যাংকিং/OTP বাদে সব অনুমোদিত অ্যাপের নোটিফিকেশন পড়া হবে।</string>
+    <string name="notif_filter_clear">সব ফিল্টার রিসেট (সব অ্যাপ)</string>
+
+    <string name="security_mode_allowlist_title">অ্যালাউলিস্ট মোড (Strict Allowlist)</string>
+    <string name="security_mode_allowlist_subtitle">চালু করলে কেবল আপনার বেছে নেওয়া অ্যাপেই স্ক্রিন পড়া ও অটোমেশন চলবে, বাকি সব অ্যাপে বন্ধ থাকবে।</string>
+    <string name="ui_max_steps_label">UI কাজে সর্বোচ্চ ধাপ-সীমা: %1$d ধাপ</string>
+    <string name="ui_stop_button_title">অটোমেশন চলাকালে ভাসমান \"থামাও\" বাটন</string>
+    <string name="ui_stop_button_subtitle">নিরাপত্তার জন্য কাজ চলাকালীন স্ক্রিনের কিনারায় ইন্ডিকেটর ও এক-ট্যাপ \"থামাও\" বাটন বাধ্যতামূলকভাবে চালু থাকে।</string>
+    <string name="screenshot_vision_title">স্ক্রিনশট ভিশন বিশ্লেষণ (Android 11+)</string>
+    <string name="screenshot_vision_subtitle">ডিফল্টে বন্ধ। টেক্সটে স্ক্রিন পড়া না গেলে এবং সক্রিয় মডেল ভিশন সাপোর্ট করলে ইন-মেমোরি স্ক্রিনশট AI-তে পাঠাবে।</string>
+    <string name="screen_privacy_disclosure_title">স্ক্রিন ও নোটিফিকেশন গোপনীয়তা</string>
+    <string name="screen_privacy_disclosure_body">• আপনি স্ক্রিন বা নোটিফিকেশন পড়তে বললে সেই লেখা (পাসওয়ার্ড ও OTP মাস্ক করে) আপনার নির্বাচিত AI প্রোভাইডারের কাছে পাঠানো হয়।\n• পাসওয়ার্ড ফিল্ড সবসময় \"[লুকানো]\" হিসেবে যায়, এবং অ্যাকশন লগে পুরো স্ক্রিনের লেখা সেভ হয় না।</string>
+    <string name="blocklist_section_title">সংবেদনশীল অ্যাপ ব্লকলিস্ট</string>
+    <string name="allowlist_section_title">অনুমোদিত অ্যাপ (অ্যালাউলিস্ট)</string>
+    <string name="add_app_package_hint">অ্যাপ প্যাকেজ বা তালিকা থেকে যোগ করুন</string>
+    <string name="remove_default_warning_title">সতর্কতা: ডিফল্ট নিরাপত্তা অ্যাপ!</string>
+    <string name="remove_default_warning_body">\"%1$s\" একটি সংবেদনশীল ব্যাংকিং/পেমেন্ট/পাসওয়ার্ড অ্যাপ হিসেবে চিহ্নিত। আপনি কি সত্যিই এটি ব্লকলিস্ট থেকে সরাতে চান?</string>
+    <string name="remove_confirm_btn">হ্যাঁ, সরান</string>
+
+    <string name="health_a11y_title">Accessibility সার্ভিস</string>
+    <string name="health_notif_access_title">Notification Access</string>
+
+    <string name="ui_agent_running_banner">AI ফোন চালাচ্ছে</string>
+    <string name="ui_agent_stop_btn">থামাও</string>
+    <string name="ui_agent_stopped_by_user">আপনার নির্দেশে UI অটোমেশন থামানো হয়েছে।</string>
+    <string name="ui_agent_stopped_by_touch">আপনি স্ক্রিন স্পর্শ করায় UI অটোমেশন স্বয়ংক্রিয়ভাবে থামানো হয়েছে।</string>
+    <string name="ui_agent_max_steps_reached">UI কাজের সর্বোচ্চ ধাপ-সীমা (%1$d ধাপ) পূর্ণ হয়েছে। নিরাপত্তার জন্য কাজটি এখানে থামানো হয়েছে।</string>
+
+    <string name="confirm_app_label">অ্যাপ:</string>
+    <string name="confirm_button_label">বাটন/উপাদান:</string>
+    <string name="confirm_context_label">প্রেক্ষাপট:</string>
+    <string name="confirm_message_label">মেসেজের লেখা:</string>
+    <string name="search_apps_hint">অ্যাপ খুঁজুন...</string>
+
+    <!-- পারফরম্যান্স ফিক্স: Streaming, Latency ও অপ্টিমাইজেশন -->
+    <string name="supports_streaming_label">স্ট্রিমিং (Streaming)</string>
+    <string name="supports_streaming_subtitle">উত্তর আসার সাথে সাথে শব্দে শব্দে স্ক্রিনে দেখাবে (ডিফল্ট চালু)</string>
+    <string name="history_limit_title">চ্যাট মেমোরি সীমা (হিস্টোরি)</string>
+    <string name="history_limit_subtitle">একসাথে কতগুলো পুরনো মেসেজ AI-এর কাছে পাঠানো হবে</string>
+    <string name="history_limit_short">কম (৬ মেসেজ)</string>
+    <string name="history_limit_medium">মাঝারি (১২ মেসেজ)</string>
+    <string name="history_limit_long">বেশি (২৪ মেসেজ)</string>
+    <string name="debug_info_toggle_title">ডিবাগ ইনফো (Latency)</string>
+    <string name="debug_info_toggle_subtitle">প্রতিটি উত্তরের নিচে রিকোয়েস্টের সময়, TTFT ও টোকেন সংখ্যা দেখাবে</string>
+    <string name="ai_thinking">ভাবছি…</string>
+    <string name="ai_running_tool">টুল চালাচ্ছি…</string>
+    <string name="ai_running_tool_named">টুল চালাচ্ছি: %1$s…</string>
+    <string name="stop_generation">থামাও</string>
+    <string name="slow_response_warning">মডেল ধীর সাড়া দিচ্ছে, দ্রুত মডেলে বদলাতে পারেন</string>
+    <string name="switch_model_shortcut">মডেল বদলান</string>
+    <string name="stream_cancelled_notice">উত্তর তৈরি থামানো হয়েছে।</string>
+    <string name="stream_interrupted_error">নেটওয়ার্ক সংযোগ মাঝপথে কেটে গেছে। এ পর্যন্ত আসা উত্তর সংরক্ষণ করা হয়েছে।</string>
+    <string name="debug_latency_summary">বিল্ড: %1$dms • প্রথম টোকেন: %2$dms • মোট: %3$s • মেসেজ: %4$d (~%5$d tok) • টুল: %6$d</string>
+    <string name="saved_key_masked_hint">সংরক্ষিত Key: %1$s</string>
+    <string name="clear_api_key">Key মুছুন</string>
+    <string name="key_status_missing">API Key সেট করা নেই</string>
+
+    <!-- NOVA AI & Automation strings -->
+    <string name="nexa_dashboard_title">NOVA AI কন্ট্রোল সেন্টার</string>
+    <string name="device_control_title">ডিভাইস কন্ট্রোল</string>
+    <string name="automation_title">স্মার্ট অটোমেশন ও রুটিন</string>
+    <string name="app_launcher_title">অ্যাপ লাঞ্চার ও ম্যানেজার</string>
+    <string name="notification_center_title">নোটিফিকেশন সেন্টার</string>
+    <string name="permission_center_title">পারমিশন সেন্টার</string>
+    <string name="action_history_title">অ্যাকশন হিস্টোরি ও লগ</string>
+    <string name="custom_commands_title">কাস্টম ভয়েস কমান্ড</string>
+    <string name="flashlight_toggle">ফ্ল্যাশলাইট (Torch)</string>
+    <string name="volume_control_title">ভলিউম লেভেল</string>
+    <string name="brightness_control_title">স্ক্রিন ব্রাইটনেস</string>
+    <string name="device_info_title">ডিভাইস ও ব্যাটারি তথ্য</string>
+    <string name="open_settings_panel">সিস্টেম সেটিংস প্যানেল</string>
+    <string name="are_you_still_there">আপনি কি এখনো শুনছেন?</string>
+    <string name="continuous_mode_title">টানা কথোপকথন মোড (Continuous)</string>
+    <string name="continuous_mode_subtitle">একবার ভয়েস চালু করলে বারবার মাইক চাপতে হবে না</string>
+    <string name="tab_quick_presets">জনপ্রিয় প্রোভাইডার (Quick)</string>
+    <string name="tab_custom_provider">কাস্টম প্রোভাইডার (Custom)</string>
+    <string name="select_provider_preset">জনপ্রিয় প্রোভাইডার নির্বাচন করুন</string>
+    <string name="preset_openrouter_desc">OpenRouter API (OpenAI/Anthropic/Gemini সব মডেল)</string>
+    <string name="preset_apiqik_desc">APIQIK High-Speed AI API Gateway</string>
+    <string name="preset_wusrouter_desc">WusRouter Free &amp; Fast AI Gateway</string>
+    <string name="preset_xingchi_desc">Xingchi AI Provider</string>
+    <string name="configure_preset">কনফিগার করুন</string>
+
+    <!-- Voice Persona & Professional Output Enhancements -->
+    <string name="voice_persona_title">AI ভয়েস ও কণ্ঠ ক্যারেক্টার</string>
+    <string name="voice_persona_subtitle">পছন্দের এআই কণ্ঠ পার্সোনা বেছে নিন বা টেস্ট করুন</string>
+    <string name="voice_persona_dialog_title">AI কণ্ঠ ক্যারেক্টার নির্বাচন</string>
+    <string name="voice_persona_preview_btn">টেস্ট শুনুন</string>
+    <string name="voice_persona_stop_btn">থামান</string>
+    <string name="voice_gender_female">নারী কণ্ঠ</string>
+    <string name="voice_gender_male">পুরুষ কণ্ঠ</string>
+    <string name="voice_gender_robot">রোবট</string>
+    <string name="voice_gender_custom">কাস্টম</string>
+    <string name="share_message">শেয়ার করুন</string>
+    <string name="copied_feedback">কপি হয়েছে!</string>
+    <string name="ai_identity_name">NOVA AI</string>
+    <string name="ai_streaming_typing">NOVA AI উত্তর লিখছে…</string>
+    <string name="ai_thinking_label">NOVA AI চিন্তা করছে…</string>
+    <string name="code_block_title">কোড স্নিপেট</string>
+    <string name="regenerate_response">পুনরায় চেষ্টা</string>
+
+    <!-- Extracted UI strings & Phase 1-4 Features -->
+    <string name="ok">ঠিক আছে</string>
+    <string name="settings_models_subtitle">মডেল যোগ করুন, এডিট করুন বা API Key সেট করুন</string>
+    <string name="settings_device_control_subtitle">ফ্ল্যাশলাইট, ভলিউম, ব্যাটারি ও সিস্টেম সেটিংস প্যানেল</string>
+    <string name="settings_automation_subtitle">রিমাইন্ডার ও নির্ধারিত সময়ের অটো-রুটিন পরিচালনা করুন</string>
+    <string name="settings_app_launcher_subtitle">ইনস্টল করা সব অ্যাপ খুঁজুন ও দ্রুত ওপেন করুন</string>
+    <string name="settings_notif_center_subtitle">সাম্প্রতিক নোটিফিকেশনের ইন-মেমোরি ইতিহাস</string>
+    <string name="settings_perm_center_subtitle">মাইক্রোফোন ও সিস্টেম পারমিশন স্ট্যাটাস</string>
+    <string name="voice_persona_rate_pitch">গতি: %1$sx • সুর: %2$sx</string>
+
+    <!-- Phase 1: Auto Failover -->
+    <string name="failover_settings_title">অটো API ফেইলওভার</string>
+    <string name="failover_settings_subtitle">একটি মডেল ব্যস্ত বা কোটা শেষ হলে পরের সচল মডেলে স্বয়ংক্রিয়ভাবে সুইচ</string>
+    <string name="failover_enable_title">স্বয়ংক্রিয় ব্যাকআপ সুইচ চালু</string>
+    <string name="failover_enable_subtitle">429/5xx/নেটওয়ার্ক ত্রুটিতে পরের প্রোভাইডারে রিট্রাই করবে</string>
+    <string name="failover_priority_header">ব্যাকআপ মডেলের অগ্রাধিকার ক্রম</string>
+    <string name="failover_reset_cooldowns">সব কুলডাউন রিসেট করুন</string>
+    <string name="failover_cooldown_reset_done">সব মডেলের কুলডাউন রিসেট করা হয়েছে</string>
+    <string name="failover_status_ok">ঠিক আছে</string>
+    <string name="failover_status_cooldown">কুলডাউন (%1$dস)</string>
+    <string name="failover_status_no_key">Key নেই</string>
+    <string name="failover_notice_banner">%1$s ব্যস্ত, %2$s দিয়ে চালানো হচ্ছে</string>
+    <string name="failover_move_up">উপরে তুলুন</string>
+    <string name="failover_move_down">নিচে নামান</string>
+
+    <!-- Phase 3.1: Web Search -->
+    <string name="web_search_settings_title">ওয়েব সার্চ API Key (Tavily / Brave / SerpAPI)</string>
+    <string name="web_search_settings_subtitle">তাজা খবর ও তথ্য খুঁজতে অন্তত একটি সার্চ প্রোভাইডার Key যোগ করুন</string>
+    <string name="tavily_key_label">Tavily API Key</string>
+    <string name="brave_key_label">Brave Search API Key</string>
+    <string name="serpapi_key_label">SerpAPI Key</string>
+
+    <!-- Phase 3.2: Long-Term Memory -->
+    <string name="memory_screen_title">দীর্ঘমেয়াদী মেমোরি</string>
+    <string name="memory_screen_subtitle">আপনার নাম, পছন্দ ও জরুরি তথ্য পরিচালনা করুন</string>
+    <string name="memory_add_btn">নতুন মেমোরি যোগ</string>
+    <string name="memory_empty">এখনো কোনো মেমোরি সেভ করা নেই</string>
+    <string name="memory_sensitive_warning">পাসওয়ার্ড, OTP, PIN বা API Key মেমোরিতে সেভ করা যাবে না।</string>
+    <string name="memory_clear_all">সব মেমোরি মুছুন</string>
+
+    <!-- Phase 3.3: Attachments -->
+    <string name="attach_file_desc">ছবি বা ফাইল যুক্ত করুন</string>
+    <string name="attach_sheet_title">মিডিয়া বা ফাইল নির্বাচন</string>
+    <string name="attach_gallery">গ্যালারি থেকে ছবি (Photo Picker)</string>
+    <string name="attach_camera">ক্যামেরা দিয়ে ছবি তুলুন</string>
+    <string name="attach_document">টেক্সট / কোড / JSON ফাইল</string>
+    <string name="attach_vision_notice">সক্রিয় মডেল ছবি সাপোর্ট করে না, তাই ভিশন ব্যাকআপ মডেলে পাঠানো হবে।</string>
+
+    <!-- Phase 3.4: Scheduled Routines -->
+    <string name="routine_add_btn">নতুন রুটিন</string>
+    <string name="routine_empty">কোনো শিডিউলড রুটিন নেই</string>
+    <string name="routine_security_note">নিরাপত্তার জন্য ব্যাকগ্রাউন্ড রুটিনে কেবল LOW-ঝুঁকির কাজ (খবর, সার্চ, আবহাওয়া, রিমাইন্ডার) চলে।</string>
+
+    <!-- Phase 3.5: Usage Dashboard -->
+    <string name="usage_dashboard_title">ব্যবহার ও টোকেন ড্যাশবোর্ড</string>
+    <string name="usage_dashboard_subtitle">মডেল অনুযায়ী রিকোয়েস্ট, টোকেন ও ৭ দিনের চার্ট</string>
+    <string name="usage_clear_btn">পরিসংখ্যান মুছুন</string>
+    <string name="usage_empty">এখনো কোনো ব্যবহার তথ্য রেকর্ড হয়নি</string>
+
+    <!-- Phase 3.6: Chat Backup / Export & Import -->
+    <string name="backup_card_title">চ্যাট ব্যাকআপ ও এক্সপোর্ট</string>
+    <string name="backup_card_subtitle">JSON বা Markdown আকারে চ্যাট এক্সপোর্ট/ইমপোর্ট (API Key বাদে)</string>
+    <string name="backup_export_json">JSON ব্যাকআপ এক্সপোর্ট</string>
+    <string name="backup_export_md">Markdown এক্সপোর্ট</string>
+    <string name="backup_import_json">JSON ব্যাকআপ ইমপোর্ট</string>
+
+    <!-- Phase 4: Max Steps -->
+    <string name="standard_max_steps_label">সাধারণ চ্যাটে সর্বোচ্চ টুল ধাপ: %1$d ধাপ</string>
+
+    <!-- Camera Pill (AI Live Avatar) -->
+    <string name="pill_settings_title">ক্যামেরা পিল (AI লাইভ অ্যাভাটার)</string>
+    <string name="pill_settings_subtitle">ক্যামেরা কাটআউটের পাশে অ্যানিমেটেড AI অ্যাভাটার ও ভয়েস ভিজুয়ালাইজার</string>
+    <string name="pill_settings_intro">ক্যামেরা পিল শুধু স্ক্রিনের ওপরের একটি ভিজ্যুয়াল ওভারলে। এটি ফিজিক্যাল ক্যামেরা চালু করে না এবং শুধু ভয়েস সেশনের বিদ্যমান অডিও লেভেল ব্যবহার করে।</string>
+    <string name="pill_enable_title">ক্যামেরা পিল চালু করুন</string>
+    <string name="pill_enable_subtitle">অন্য অ্যাপের ওপরেও পিল দেখাবে (ওভারলে পারমিশন লাগবে)</string>
+    <string name="pill_overlay_permission_title">ওভারলে পারমিশন (অন্য অ্যাপের ওপর দেখানো)</string>
+    <string name="pill_permission_granted">অনুমতি দেওয়া আছে</string>
+    <string name="pill_permission_missing">অনুমতি দেওয়া নেই — পিল দেখানো যাবে না</string>
+    <string name="pill_grant_permission">অনুমতি দিন</string>
+    <string name="pill_status_visible">এখন পিল স্ক্রিনে দেখা যাচ্ছে</string>
+    <string name="pill_status_hidden">এখন পিল লুকানো আছে</string>
+    <string name="pill_preview_button">ক্যামেরা পিল প্রিভিউ</string>
+    <string name="pill_preview_note">প্রিভিউ একটি ডেমো অ্যানিমেশন চালায়; এতে মাইক্রোফোন ব্যবহার হয় না।</string>
+    <string name="pill_mode_title">ডিসপ্লে মোড</string>
+    <string name="pill_mode_talking_title">শুধু কথা বলার সময়</string>
+    <string name="pill_mode_talking_subtitle">আপনি বা NOVA AI কথা বললে বা ভয়েস প্রসেসিং চললে দেখাবে, তারপর কিছুক্ষণ পর লুকিয়ে যাবে</string>
+    <string name="pill_mode_always_title">সবসময় চালু</string>
+    <string name="pill_mode_always_subtitle">NOVA AI অ্যাসিস্ট্যান্ট সার্ভিস বা সেশন সক্রিয় থাকলে পিল দেখাবে</string>
+    <string name="pill_idle_delay_label">লুকানোর আগের বিলম্ব: %1$.1f সেকেন্ড</string>
+    <string name="pill_always_needs_service">“সবসময় চালু” মোডে পিল দেখতে ব্যাকগ্রাউন্ড লিসেনিং (অ্যাসিস্ট্যান্ট সার্ভিস) চালু থাকতে হবে।</string>
+    <string name="pill_avatar_anim_title">অ্যাভাটার অ্যানিমেশন</string>
+    <string name="pill_avatar_anim_subtitle">চোখ পিটপিট, নড়াচড়া ও গ্লো অ্যানিমেশন (বন্ধ থাকলে স্থির ছবি)</string>
+    <string name="pill_visualizer_title">অডিও ভিজুয়ালাইজার</string>
+    <string name="pill_visualizer_subtitle">আপনার কণ্ঠের বার ও AI কণ্ঠের ওয়েভ দেখান</string>
+    <string name="pill_thinking_title">AI চিন্তার অ্যানিমেশন দেখান</string>
+    <string name="pill_thinking_subtitle">উত্তর তৈরির সময় চিন্তার অ্যানিমেশন</string>
+    <string name="pill_speaking_title">AI কথা বলার অ্যানিমেশন দেখান</string>
+    <string name="pill_speaking_subtitle">NOVA AI বলার সময় মুখ ও ভয়েস ওয়েভ অ্যানিমেশন</string>
+    <string name="pill_size_label">অ্যাভাটার সাইজ: %1$d%%</string>
+    <string name="pill_intensity_label">অ্যানিমেশন তীব্রতা: %1$d%%</string>
+    <string name="pill_privacy_note">গোপনীয়তা: ক্যামেরা পিলের জন্য আলাদা করে কোনো অডিও রেকর্ড করা হয় না। মাইক চালু থাকলে অ্যান্ড্রয়েডের মাইক ইন্ডিকেটর ও ফোরগ্রাউন্ড নোটিফিকেশন যথারীতি দেখা যায়।</string>
+
+    <!-- Bulk JSON import (Models & API Keys) -->
+    <string name="import_button">JSON থেকে ইমপোর্ট</string>
+    <string name="import_button_subtitle">একসাথে একাধিক মডেল ও API Key যোগ করুন</string>
+    <string name="import_button_cd">JSON ফাইল থেকে মডেল ও API Key ইমপোর্ট করুন</string>
+    <string name="import_help_cd">JSON ফরম্যাট দেখুন</string>
+    <string name="import_help_title">JSON ফাইলের ফরম্যাট</string>
+    <string name="import_help_body">ফাইলটি একটি JSON অ্যারে হতে হবে (অথবা "models" নামের অ্যারেসহ অবজেক্ট)। প্রতিটি মডেলে অন্তত modelName এবং provider অথবা baseUrl থাকতে হবে। apiKey ঐচ্ছিক। provider হিসেবে openai, anthropic বা gemini লিখলে baseUrl না দিলেও চলবে; অন্য সার্ভিসের (যেমন OpenRouter, Groq) ক্ষেত্রে baseUrl দিতে হবে। একই ফাইলের মধ্যে ও বিদ্যমান মডেলের সাথে ডুপ্লিকেট শনাক্ত করা হয়। Active মডেল বদলায় না।</string>
+    <string name="import_help_close">বুঝেছি</string>
+    <string name="import_reading_title">ফাইল যাচাই করা হচ্ছে</string>
+    <string name="import_reading_sub">ফরম্যাট ও প্রয়োজনীয় ফিল্ড পরীক্ষা চলছে…</string>
+    <string name="import_preview_title">ইমপোর্টের জন্য প্রস্তুত</string>
+    <string name="import_found_label">ফাইলে পাওয়া গেছে: %1$d টি মডেল</string>
+    <string name="import_preview_new">নতুন যোগ হবে: %1$d</string>
+    <string name="import_preview_dups">আগে থেকেই আছে (ডুপ্লিকেট): %1$d</string>
+    <string name="import_preview_repeat">ফাইলের ভেতরে পুনরাবৃত্তি (বাদ যাবে): %1$d</string>
+    <string name="import_preview_invalid">অবৈধ এন্ট্রি (ইমপোর্ট হবে না): %1$d</string>
+    <string name="import_preview_nokey">%1$d টি মডেলে API Key নেই; পরে Edit থেকে যোগ করতে পারবেন।</string>
+    <string name="import_dup_prompt">ডুপ্লিকেট মডেল কীভাবে হ্যান্ডেল করবেন?</string>
+    <string name="import_action_skip">ডুপ্লিকেট বাদ দিন</string>
+    <string name="import_action_update">ডুপ্লিকেট আপডেট করুন</string>
+    <string name="import_action_import">ইমপোর্ট করুন</string>
+    <string name="import_importing_title">ইমপোর্ট হচ্ছে…</string>
+    <string name="import_importing_sub">অনুগ্রহ করে অপেক্ষা করুন, অ্যাপ বন্ধ করবেন না।</string>
+    <string name="import_progress">%1$d / %2$d</string>
+    <string name="import_summary_title">ইমপোর্ট সম্পন্ন</string>
+    <string name="import_stat_total">মোট পাওয়া মডেল</string>
+    <string name="import_stat_imported">সফলভাবে ইমপোর্ট</string>
+    <string name="import_stat_updated">আপডেট হয়েছে</string>
+    <string name="import_stat_skipped">বাদ দেওয়া হয়েছে</string>
+    <string name="import_stat_failed">ব্যর্থ ইমপোর্ট</string>
+    <string name="import_done_nokey">%1$d টি নতুন মডেলে API Key নেই — মডেল কার্ডের Edit বাটন থেকে Key যোগ করুন।</string>
+    <string name="import_failed_title">ইমপোর্ট করা যায়নি</string>
+    <string name="import_failed_untouched">আপনার বিদ্যমান মডেল ও API Key অপরিবর্তিত আছে।</string>
+    <string name="import_rejected_header">যে এন্ট্রিগুলো ইমপোর্ট হয়নি:</string>
+    <string name="import_rejected_row">#%1$d %2$s — %3$s</string>
+    <string name="import_rejected_more">…এবং আরও %1$d টি</string>
+    <string name="import_err_unreadable">ফাইলটি পড়া যায়নি। অন্য ফাইল বেছে নিন।</string>
+    <string name="import_err_empty">ফাইলটি ফাঁকা।</string>
+    <string name="import_err_too_large">ফাইলটি অনেক বড় (সর্বোচ্চ ২ MB)।</string>
+    <string name="import_err_not_json">এটি বৈধ JSON ফাইল নয়। ফাইলের ফরম্যাট ঠিক আছে কিনা দেখুন।</string>
+    <string name="import_err_structure">JSON-এর কাঠামো সমর্থিত নয়। মডেলের একটি অ্যারে বা "models" অ্যারেসহ অবজেক্ট প্রয়োজন।</string>
+    <string name="import_err_no_models">ফাইলে কোনো মডেল পাওয়া যায়নি।</string>
+    <string name="import_err_too_many">একসাথে সর্বোচ্চ ৫০০ টি মডেল ইমপোর্ট করা যায়।</string>
+    <string name="import_err_no_valid">ফাইলে একটিও বৈধ মডেল নেই।</string>
+    <string name="import_err_storage">সংরক্ষণের সময় সমস্যা হয়েছে, তাই ইমপোর্ট বাতিল করা হয়েছে।</string>
+    <string name="import_issue_not_object">এন্ট্রিটি অবজেক্ট নয়</string>
+    <string name="import_issue_no_model">modelName নেই</string>
+    <string name="import_issue_no_provider">provider ও baseUrl দুটোই নেই</string>
+    <string name="import_issue_unknown_provider">provider অজানা (baseUrl দিন)</string>
+    <string name="import_issue_bad_url">baseUrl বৈধ http/https URL নয়</string>
+    <string name="import_issue_bad_temp">temperature ০ থেকে ২ এর মধ্যে হতে হবে</string>
+    <string name="import_issue_bad_key">apiKey-তে স্পেস বা অবৈধ অক্ষর আছে</string>
+    <string name="import_issue_too_long">কোনো ফিল্ড অতিরিক্ত বড়</string>
+
+    <!-- Voice engine: Gemini Live / Owner Voice / Hands-free (added in Step 1) -->
+    <string name="voice_engine_title">ভয়েস ইঞ্জিন (জেমিনি লাইভ)</string>
+    <string name="voice_engine_subtitle">জেমিনি লাইভ ভয়েস, হ্যান্ডস-ফ্রি, ওনার ভয়েস</string>
+    <string name="voice_engine_intro">জেমিনি লাইভ একটি অতিরিক্ত ভয়েস মোড। স্ট্যান্ডার্ড স্পিচ রিকগনিশন + টেক্সট-টু-স্পিচ ডিফল্ট থাকে এবং জেমিনি লাইভ চালু না হলে বা ব্যর্থ হলে স্বয়ংক্রিয়ভাবে সেটিই ব্যবহৃত হয়।</string>
+    <string name="ve_mode_title">ভয়েস মোড</string>
+    <string name="ve_mode_legacy">স্ট্যান্ডার্ড (স্পিচ রিকগনিশন + TTS)</string>
+    <string name="ve_mode_live">জেমিনি লাইভ (রিয়েল-টাইম ভয়েস)</string>
+    <string name="ve_mode_live_hint">সেশন চলাকালীন লাইভ অডিও গুগলের জেমিনি সার্ভিসে স্ট্রিম হয়।</string>
+    <string name="ve_key_title">জেমিনি API কী</string>
+    <string name="ve_key_none">কোনো কী সেভ করা নেই</string>
+    <string name="ve_key_saved">সেভ করা কী: %1$s</string>
+    <string name="ve_key_hint">জেমিনি API কী পেস্ট করুন</string>
+    <string name="ve_key_save">সেভ</string>
+    <string name="ve_key_clear">কী মুছুন</string>
+    <string name="ve_model_title">লাইভ মডেল আইডি</string>
+    <string name="ve_voice_title">কণ্ঠস্বর</string>
+    <string name="ve_handsfree_title">হ্যান্ডস-ফ্রি</string>
+    <string name="ve_handsfree_hint">লাইভ কথোপকথন বেশি সময় খোলা রাখুন এবং স্ক্রিন বন্ধ থাকলেও সিপিইউ সজাগ রাখুন</string>
+    <string name="ve_bt_permission">ব্লুটুথ হেডসেট রাউটিংয়ের অনুমতি দিন</string>
+    <string name="ve_owner_title">ওনার ভয়েস</string>
+    <string name="ve_owner_hint">শুধু আপনার কণ্ঠই জেমিনি লাইভে যায়। এই ডিভাইসে রাখা অফলাইন স্পিচ মডেল ব্যবহার হয়। এটি অন্য কারও গ্রহণযোগ্য হওয়ার সম্ভাবনা কমায়, পুরোপুরি বন্ধ করে না — নিরাপত্তা-তালা হিসেবে এর ওপর নির্ভর করবেন না।</string>
+    <string name="ve_models_unavailable">এই বিল্ডে অফলাইন মডেল অন্তর্ভুক্ত নেই</string>
+    <string name="ve_models_not_installed">অফলাইন মডেল এখনও ইনস্টল হয়নি</string>
+    <string name="ve_models_installing">অফলাইন মডেল ইনস্টল হচ্ছে… %1$d%%</string>
+    <string name="ve_models_installed">অফলাইন মডেল ইনস্টল করা আছে</string>
+    <string name="ve_models_failed">অফলাইন মডেল ইনস্টল ব্যর্থ হয়েছে</string>
+    <string name="ve_models_install_btn">অফলাইন মডেল ইনস্টল করুন</string>
+    <string name="ve_models_delete_btn">অফলাইন মডেল মুছুন</string>
+    <string name="ve_owner_toggle">শুধু আমার কণ্ঠে সাড়া দিন</string>
+    <string name="ve_strictness_title">কড়াকড়ি</string>
+    <string name="ve_strict">কড়া</string>
+    <string name="ve_balanced">মাঝারি</string>
+    <string name="ve_relaxed">শিথিল</string>
+    <string name="ve_enroll_title">আপনার কণ্ঠ নথিভুক্ত করুন</string>
+    <string name="ve_profile_present">একটি ভয়েস প্রোফাইল সেভ করা আছে</string>
+    <string name="ve_profile_absent">এখনও কোনো ভয়েস প্রোফাইল নেই</string>
+    <string name="ve_enroll_progress">নমুনা: %1$d / %2$d</string>
+    <string name="ve_prompt_1">বলুন: \"হে, জেগে ওঠো, তোমাকে দরকার\"</string>
+    <string name="ve_prompt_2">বলুন: \"দয়া করে ফ্ল্যাশলাইট জ্বালাও\"</string>
+    <string name="ve_prompt_3">বলুন: \"আজকের আবহাওয়া কেমন?\"</string>
+    <string name="ve_record_btn">নমুনা রেকর্ড করুন</string>
+    <string name="ve_stop_btn">থামান</string>
+    <string name="ve_test_btn">আমার কণ্ঠ পরীক্ষা করুন</string>
+    <string name="ve_clear_profile">প্রোফাইল মুছুন</string>
+    <string name="ve_msg_recording">শুনছি… বাক্যটি বলুন, তারপর থামান চাপুন</string>
+    <string name="ve_msg_analyzing">কণ্ঠ বিশ্লেষণ হচ্ছে…</string>
+    <string name="ve_msg_too_short">রেকর্ডিং খুব ছোট। পুরো একটি বাক্য বলুন।</string>
+    <string name="ve_msg_no_vector">কণ্ঠের স্বাক্ষর বের করা যায়নি। মাইকের কাছে এসে আবার চেষ্টা করুন।</string>
+    <string name="ve_msg_sample_ok">নমুনা সেভ হয়েছে। পরেরটি রেকর্ড করুন।</string>
+    <string name="ve_msg_saved">ভয়েস প্রোফাইল সেভ হয়েছে</string>
+    <string name="ve_msg_save_failed">ভয়েস প্রোফাইল নিরাপদে সেভ করা যায়নি</string>
+    <string name="ve_msg_busy_session">আগে চলমান ভয়েস সেশন শেষ করুন</string>
+    <string name="ve_msg_mic_failed">মাইক্রোফোন পাওয়া যাচ্ছে না</string>
+    <string name="ve_msg_models_needed">আগে অফলাইন মডেল ইনস্টল করুন এবং প্রোফাইল রেকর্ড করুন</string>
+    <string name="ve_test_match">মিল পাওয়া গেছে — দূরত্ব %1$s (সীমা %2$s)</string>
+    <string name="ve_test_nomatch">মালিক হিসেবে চেনা যায়নি — দূরত্ব %1$s (সীমা %2$s)</string>
+    <string name="live_err_no_key">জেমিনি লাইভের জন্য API কী দরকার। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_invalid_key">জেমিনি API কী গ্রহণ করেনি। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_quota">জেমিনি কোটা শেষ। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_model">নির্বাচিত জেমিনি লাইভ মডেল গ্রহণ করা হয়নি। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_retries">জেমিনি লাইভ সংযোগ ধরে রাখা যায়নি। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_mic">জেমিনি লাইভের জন্য মাইক্রোফোন পাওয়া যাচ্ছে না। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_permission">মাইক্রোফোনের অনুমতি নেই। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_owner_profile">ওনার ভয়েস চালু কিন্তু কোনো প্রোফাইল নেই। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_owner_models">ওনার ভয়েস মডেল প্রস্তুত নয়। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_err_focus">অন্য অ্যাপ অডিও ব্যবহার করছে। স্ট্যান্ডার্ড ভয়েস ব্যবহার হচ্ছে।</string>
+    <string name="live_status_connecting">সংযোগ হচ্ছে…</string>
+    <string name="live_status_reconnecting">আবার সংযোগ হচ্ছে…</string>
+    <string name="live_status_offline">নেটওয়ার্কের অপেক্ষায়…</string>
+    <string name="perm_desc_location">আবহাওয়া জানানোর জন্য আনুমানিক লোকেশন (Coarse) পারমিশন প্রয়োজন। সঠিক লোকেশন বা ট্র্যাকিং ব্যবহার করা হয় না।</string>
+
+    <!-- Automation control (Step 2) -->
+    <string name="automation_control_title">অটোমেশন নিয়ন্ত্রণ</string>
+    <string name="automation_control_subtitle">কিল সুইচ, ফিচার টগল, YouTube কী</string>
+    <string name="auto_kill_title">অটোমেশন কিল সুইচ</string>
+    <string name="auto_kill_hint">চালু থাকলে কোনো ফোন অটোমেশনই চলবে না (কল, WhatsApp, YouTube, স্ক্রিন কন্ট্রোল, জেমিনি লাইভ টুল)। চলমান কাজ সঙ্গে সঙ্গে থামবে।</string>
+    <string name="auto_features_title">অটোমেশন ফিচার</string>
+    <string name="auto_feat_phone">ফোন কন্ট্রোল (অ্যাপ, কল, ভলিউম, ব্রাইটনেস, টর্চ, আবহাওয়া)</string>
+    <string name="auto_feat_media">মিডিয়া কি (পজ / রিজিউম / পরের / আগের)</string>
+    <string name="auto_feat_web">ওয়েবসাইট খোলা</string>
+    <string name="auto_feat_youtube">YouTube (চালানো, সার্চ, সাবস্ক্রাইব, ফুলস্ক্রিন)</string>
+    <string name="auto_feat_whatsapp">WhatsApp (মেসেজ, কল, মেসেজ মোছা)</string>
+    <string name="auto_feat_screen">স্ক্রিন কন্ট্রোল (পড়া, ট্যাপ, টাইপ, স্ক্রল)</string>
+    <string name="auto_fast_title">ফাস্ট কমান্ড রাউটিং</string>
+    <string name="auto_fast_hint">স্পষ্টভাবে বলা ভয়েস কমান্ড এআই মডেলকে জিজ্ঞেস না করেই চলবে। নিশ্চিতকরণ ও নিরাপত্তা যাচাই আগের মতোই থাকবে।</string>
+    <string name="auto_perm_title">পারমিশনের অবস্থা</string>
+    <string name="auto_perm_accessibility">Accessibility সার্ভিস</string>
+    <string name="auto_perm_contacts">কন্ট্যাক্টস</string>
+    <string name="auto_perm_call">ফোন কল</string>
+    <string name="auto_perm_location">আনুমানিক লোকেশন (আবহাওয়া)</string>
+    <string name="auto_perm_open">পারমিশন সেন্টার খুলুন</string>
+    <string name="auto_yt_title">YouTube API কী (ঐচ্ছিক)</string>
+    <string name="auto_yt_hint">এতে সহকারী সঠিক ভিডিওটি বেছে চালাতে পারে। না থাকলে YouTube সার্চ রেজাল্ট খোলা হবে। কী এনক্রিপ্টেড থাকে এবং কখনো লগ হয় না।</string>
+    <string name="auto_yt_key_hint">YouTube Data API কী পেস্ট করুন</string>
+
+    <!-- Appearance (Step 3) -->
+    <string name="theme_sheet_title">চেহারা</string>
+    <string name="theme_sheet_hint">একটি থিম বেছে নিন। অটো আপনার লাইট/ডার্ক সেটিং অনুসরণ করে।</string>
+    <string name="theme_auto">অটো (লাইট / ডার্ক)</string>
+    <string name="theme_dark">ডার্ক</string>
+    <string name="theme_light">লাইট</string>
+    <string name="theme_red">লাল</string>
+    <string name="theme_sunset">সানসেট</string>
+    <string name="appearance_title">চেহারা</string>
+    <string name="appearance_subtitle">ডার্ক, লাইট, লাল ও সানসেট থিম</string>
+
+    <!-- HUD (Step 3) -->
+    <string name="hud_state_idle">প্রস্তুত</string>
+    <string name="hud_state_listening">শুনছি</string>
+    <string name="hud_state_thinking">ভাবছি</string>
+    <string name="hud_state_speaking">বলছি</string>
+    <string name="dock_home">হোম</string>
+    <string name="dock_chat">চ্যাট</string>
+    <string name="dock_settings">সেটিংস</string>
+    <string name="dock_mic">ভয়েস শুরু করুন</string>
+    <string name="hud_card_title">HUD হোম</string>
+    <string name="hud_card_subtitle">সহকারীর অবস্থা অনুযায়ী চলমান অর্ব</string>
+
+    <!-- About (Step 3) -->
+    <string name="about_title">NOVA AI সম্পর্কে</string>
+    <string name="about_back">ফিরে যান</string>
+    <string name="about_version">ভার্সন %1$s</string>
+    <string name="about_credits_title">কৃতজ্ঞতা</string>
+    <string name="about_open_link">JARVIS AI পেজ খুলুন</string>
+    <string name="about_notices_button">ওপেন-সোর্স নোটিশ ও লাইসেন্স</string>
+    <string name="notices_title">নোটিশ ও লাইসেন্স</string>
+    <string name="about_card_title">NOVA AI সম্পর্কে</string>
+    <string name="about_card_subtitle">ডেভেলপার, কৃতজ্ঞতা ও লাইসেন্স</string>
+</resources>

@@ -1,0 +1,21 @@
+{
+  "models": [
+    {
+      "name": "Gemini Flash",
+      "provider": "gemini",
+      "modelName": "gemini-2.5-flash",
+      "apiKey": "YOUR_API_KEY_HERE"
+    },
+    {
+      "name": "OpenRouter Claude",
+      "provider": "openai",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "modelName": "anthropic/claude-3.5-sonnet",
+      "apiKey": "YOUR_API_KEY_HERE",
+      "temperature": 0.7,
+      "supportsTools": true,
+      "supportsVision": false,
+      "supportsStreaming": true
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data-extraction-rules>
+    <cloud-backup>
+        <!-- এনক্রিপ্টেড API Key ক্লাউড ব্যাকআপে যাবে না -->
+        <exclude domain="sharedpref" path="secure_ai_prefs.xml" />
+        <exclude domain="file" path="vosk/" />
+    </cloud-backup>
+    <device-transfer>
+        <!-- এনক্রিপ্টেড API Key ডিভাইস ট্রান্সফারে যাবে না (Keystore হার্ডওয়্যার-বাউন্ড) -->
+        <exclude domain="sharedpref" path="secure_ai_prefs.xml" />
+        <exclude domain="file" path="vosk/" />
+    </device-transfer>
+</data-extraction-rules>

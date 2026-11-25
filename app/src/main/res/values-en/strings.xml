@@ -1,0 +1,720 @@
+<resources>
+    <string name="app_name">NOVA AI</string>
+    <string name="nav_chat">Chat</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_models">Model List</string>
+    <string name="new_chat">New Chat</string>
+    <string name="settings_title">Settings</string>
+    <string name="models_title">Models &amp; API Key Management</string>
+    <string name="add_model">Add New Model</string>
+    <string name="edit_model">Edit Model</string>
+    <string name="delete_model">Delete</string>
+    <string name="confirm_delete">Are you sure you want to delete this model?</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="connection_success">Connection successful! API Key and model are valid.</string>
+    <string name="connection_failed">Connection failed: </string>
+    <string name="active_badge">Active</string>
+    <string name="set_active">Set Active</string>
+    <string name="no_models_warning">Please add a model first!</string>
+    <string name="no_models_subtitle">Configure your AI model and API Key from Settings to start chatting.</string>
+    <string name="configure_model">Configure Model</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="welcome_title">Your Personal AI Assistant</string>
+    <string name="welcome_subtitle">How can I help you today?</string>
+    <string name="suggestion_1">Write a beautiful poem</string>
+    <string name="suggestion_2">Check phone battery and network status</string>
+    <string name="suggestion_3">Set an alarm for 7:00 AM</string>
+    <string name="suggestion_4">Turn on the flashlight</string>
+    <string name="type_message">Type a message here...</string>
+    <string name="copied_to_clipboard">Copied to clipboard</string>
+    <string name="theme_setting">App Theme</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="system_prompt_title">System Prompt</string>
+    <string name="system_prompt_hint">This prompt is sent at the beginning of every AI chat request.</string>
+    <string name="system_prompt_default">You are a helpful, intelligent, and friendly personal AI assistant. Always reply clearly in the user\'s language.</string>
+    <string name="reset">Reset</string>
+    <string name="about_app">About App</string>
+    <string name="app_version">Version 6.0.0 (NOVA AI - Full Release)</string>
+    <string name="display_name">Display Name (e.g. My OpenAI)</string>
+    <string name="provider_type">Provider Type</string>
+    <string name="base_url">Base URL</string>
+    <string name="api_key">API Key</string>
+    <string name="model_name">Model Name (e.g. gpt-4o, claude-3-5-sonnet)</string>
+    <string name="temperature">Temperature</string>
+    <string name="error_required_field">This field cannot be empty</string>
+    <string name="error_invalid_url">Enter a valid URL</string>
+    <string name="retry">Retry</string>
+    <string name="ai_typing">AI is typing...</string>
+    <string name="select_model">Select Model</string>
+    <string name="manage_models">Manage Models</string>
+    <string name="no_model_label">No Model</string>
+    <string name="add_model_short">Add a model</string>
+
+    <!-- Phase 2: Voice Input & Permissions -->
+    <string name="voice_input_desc">Voice Mode</string>
+    <string name="mic_permission_title">Microphone Permission</string>
+    <string name="mic_permission_rationale">To ask questions using your voice, the app needs permission to use your device microphone.</string>
+    <string name="mic_permission_allow">Allow</string>
+    <string name="mic_permission_denied_polite">Voice input cannot start without microphone permission. You can still type to chat or grant permission later.</string>
+    <string name="mic_permission_permanently_denied">Microphone permission is permanently denied. Please enable it in App Settings to use Voice Mode.</string>
+    <string name="open_app_settings">Open Settings</string>
+    <string name="speech_error_no_match">Could not understand speech clearly. Please try again.</string>
+    <string name="speech_error_network">No internet connection. Network is required for speech recognition.</string>
+    <string name="speech_error_busy">Speech recognizer is busy. Please try again in a moment.</string>
+    <string name="speech_error_no_service">Speech recognition service is unavailable on this device. Please install or update the Google app.</string>
+    <string name="speech_error_audio">Audio recording error. Check if another app is using the microphone.</string>
+    <string name="speech_error_unknown">An unknown speech recognition error occurred. Please try again.</string>
+
+    <!-- Phase 2: Voice Mode Screen -->
+    <string name="voice_mode_title">Voice Assistant</string>
+    <string name="voice_state_idle">Tap the mic to speak</string>
+    <string name="voice_state_listening">Listening...</string>
+    <string name="voice_state_thinking">AI is thinking...</string>
+    <string name="voice_state_speaking">Speaking...</string>
+    <string name="voice_state_error">Error occurred</string>
+    <string name="voice_continuous_label">Continuous Conversation</string>
+    <string name="voice_stop_interrupt">Stop</string>
+    <string name="voice_close">Close</string>
+    <string name="voice_tap_to_speak">Speak Again</string>
+    <string name="voice_transcript_placeholder">Your live speech transcript will appear here...</string>
+    <string name="voice_you_said">You said:</string>
+    <string name="voice_ai_reply">AI reply:</string>
+
+    <!-- Phase 2: TTS -->
+    <string name="speak_message">Read aloud</string>
+    <string name="stop_speaking">Stop reading</string>
+    <string name="tts_code_spoken">Code block shown.</string>
+    <string name="tts_missing_bengali_title">Bengali Voice Data Missing</string>
+    <string name="tts_missing_bengali_message">Bengali (bn-BD) voice data is not installed in your Text-to-Speech engine. You can download it from TTS Settings.</string>
+    <string name="tts_open_settings">Open TTS Settings</string>
+    <string name="voice_settings_title">Voice &amp; Audio Settings</string>
+    <string name="speech_language_title">Voice Input Language</string>
+    <string name="lang_auto">Auto</string>
+    <string name="lang_bengali">Bengali (bn-BD)</string>
+    <string name="lang_english">English (en-US)</string>
+    <string name="tts_rate_title">Speech Rate</string>
+    <string name="tts_pitch_title">Voice Pitch</string>
+    <string name="auto_speak_title">Auto-speak on Voice Input</string>
+    <string name="auto_speak_subtitle">Automatically read AI replies aloud when you speak</string>
+
+    <!-- Phase 2: Chat History & Search -->
+    <string name="history_drawer_title">Chat History</string>
+    <string name="search_chats_hint">Search across all chats...</string>
+    <string name="no_history_yet">No saved conversations yet</string>
+    <string name="no_search_results">No matching results found</string>
+    <string name="group_pinned">Pinned</string>
+    <string name="group_today">Today</string>
+    <string name="group_yesterday">Yesterday</string>
+    <string name="group_last_7_days">Previous 7 Days</string>
+    <string name="group_older">Older</string>
+    <string name="rename_chat">Rename</string>
+    <string name="rename_chat_hint">Enter new title</string>
+    <string name="pin_chat">Pin</string>
+    <string name="unpin_chat">Unpin</string>
+    <string name="delete_chat">Delete</string>
+    <string name="delete_chat_confirm">Are you sure you want to delete this conversation?</string>
+    <string name="history_settings_title">Chat History Settings</string>
+    <string name="auto_title_ai_title">Auto-generate Title with AI</string>
+    <string name="auto_title_ai_subtitle">Generate a short title using the active AI after the first reply</string>
+    <string name="clear_all_history">Clear All History</string>
+    <string name="clear_all_history_confirm">Are you sure you want to permanently delete all chat history? This cannot be undone.</string>
+    <string name="clear_all_done">All chat history cleared</string>
+    <string name="copy_code">Copy code</string>
+    <string name="menu_history">History menu</string>
+
+    <!-- Phase 3: Phone Actions, Tools, Confirmations, Permissions & Action Logs -->
+    <string name="supports_tools_label">Supports Tools (Function Calling)</string>
+    <string name="supports_tools_subtitle">Keep enabled to allow AI to perform phone actions</string>
+    <string name="tools_not_supported_notice">The active model does not support tool calling, so this turn ran as regular chat.</string>
+    <string name="agent_max_steps_reached">Maximum 5 agent steps reached. Stopped safely to prevent an infinite loop.</string>
+
+    <string name="action_status_pending">Pending</string>
+    <string name="action_status_waiting_confirm">Waiting for confirmation</string>
+    <string name="action_status_running">Running...</string>
+    <string name="action_status_success">Success</string>
+    <string name="action_status_failed">Failed</string>
+    <string name="action_status_cancelled">Cancelled</string>
+
+    <string name="confirm_action_title">High-Risk Action Confirmation</string>
+    <string name="confirm_high_risk_warning">Please review and confirm before this action runs.</string>
+    <string name="confirm_recipient_label">Recipient:</string>
+    <string name="confirm_number_label">Number:</string>
+    <string name="confirm_sms_body_label">SMS Message:</string>
+    <string name="confirm_action_button">Confirm</string>
+    <string name="confirm_edit_button">Edit</string>
+    <string name="confirm_timeout_hint">Auto-cancels in %1$d seconds if no response</string>
+    <string name="voice_confirm_listening">Say Yes or No...</string>
+    <string name="voice_confirm_call_prompt">Call %1$s? Say yes or no.</string>
+    <string name="voice_confirm_sms_prompt">Send SMS to %1$s saying: %2$s. Say yes or no.</string>
+    <string name="voice_confirm_generic_prompt">Run action (%1$s)? Say yes or no.</string>
+
+    <string name="contact_picker_title">Multiple Contacts Found</string>
+    <string name="contact_picker_subtitle">Please choose the exact contact:</string>
+
+    <string name="tool_permission_title">Permission Required</string>
+    <string name="tool_permission_allow">Grant Permission</string>
+    <string name="perm_desc_call_phone">Phone call permission is needed to place direct calls.</string>
+    <string name="perm_desc_send_sms">SMS permission is needed to send text messages.</string>
+    <string name="perm_desc_read_contacts">Contacts permission is needed to search contacts by name.</string>
+    <string name="perm_desc_write_settings">Modify system settings permission is needed to adjust screen brightness.</string>
+
+    <string name="tools_settings_title">Phone Actions &amp; Tools</string>
+    <string name="tools_settings_subtitle">Toggle individual tools and confirmation rules</string>
+    <string name="confirm_medium_risk_title">Always Ask for Medium-Risk Actions</string>
+    <string name="confirm_medium_risk_subtitle">Confirm before setting alarms, timers, calendar events, or opening WhatsApp</string>
+    <string name="log_sensitive_title">Keep Sensitive Data in Logs</string>
+    <string name="log_sensitive_subtitle">When off, full SMS message bodies are hidden in action logs</string>
+    <string name="dual_sim_title">Default SIM (Dual SIM)</string>
+    <string name="dual_sim_auto">System Default</string>
+    <string name="dual_sim_1">SIM 1</string>
+    <string name="dual_sim_2">SIM 2</string>
+    <string name="individual_tools_header">Enable / Disable Tools</string>
+
+    <string name="permissions_screen_title">Permissions</string>
+    <string name="permissions_screen_subtitle">Inspect and grant required Android permissions</string>
+    <string name="permission_granted">Granted</string>
+    <string name="permission_not_granted">Not Granted</string>
+    <string name="permission_grant_btn">Grant</string>
+
+    <string name="action_log_title">Action Log</string>
+    <string name="action_log_subtitle">History of phone actions executed by AI</string>
+    <string name="action_log_empty">No phone actions have been run yet</string>
+    <string name="clear_action_logs">Clear All Action Logs</string>
+    <string name="clear_action_logs_confirm">Are you sure you want to delete all action logs?</string>
+    <string name="action_logs_cleared">All action logs cleared</string>
+
+    <string name="risk_low">Low Risk</string>
+    <string name="risk_medium">Medium Risk</string>
+    <string name="risk_high">High Risk</string>
+
+    <!-- Phase 4: Background Service, Wake Word, Overlay, Health Check & Battery Guide -->
+    <string name="app_version_4">Version 6.0.0 (NOVA AI - Background &amp; Wake Word)</string>
+    <string name="qs_tile_label">NOVA AI</string>
+
+    <string name="bg_settings_title">Background &amp; Wake Word</string>
+    <string name="bg_settings_subtitle">Background listening, wake word, floating bubble &amp; schedule</string>
+    <string name="bg_listening_master_title">Background Listening</string>
+    <string name="bg_listening_master_subtitle">Keep the assistant reachable while using other apps</string>
+    <string name="bg_service_running">Service Running</string>
+    <string name="bg_service_stopped">Service Stopped</string>
+    <string name="bg_android12_hint">On Android 12+, microphone foreground services must be started while the app is visible.</string>
+
+    <string name="notif_channel_assistant_name">Assistant Background Service</string>
+    <string name="notif_channel_assistant_desc">Persistent status and controls for background voice listening</string>
+    <string name="notif_channel_boot_name">Boot &amp; Reminders</string>
+    <string name="notif_title_listening">Assistant Listening (%1$s)</string>
+    <string name="notif_title_ready">Assistant Ready</string>
+    <string name="notif_title_paused">Listening is Paused</string>
+    <string name="notif_text_listening">Say your wake word or tap \"Speak\" to start.</string>
+    <string name="notif_text_paused_user">Microphone is paused — not listening right now.</string>
+    <string name="notif_text_paused_call">Paused temporarily during phone call or another app using mic.</string>
+    <string name="notif_text_paused_battery">Wake word paused while unplugged (Charging-only mode).</string>
+    <string name="notif_text_paused_schedule">Listening paused during scheduled night hours.</string>
+    <string name="notif_action_pause">Pause</string>
+    <string name="notif_action_resume">Resume</string>
+    <string name="notif_action_speak">Speak</string>
+    <string name="notif_action_open_app">Open App</string>
+    <string name="notif_action_stop">Stop</string>
+
+    <string name="boot_notif_title">Tap to Start NOVA AI</string>
+    <string name="boot_notif_body">Android 14+ restricts starting microphone services on boot. Tap here to resume your assistant.</string>
+    <string name="boot_reminder_title">Post-Reboot Tap-to-Start Reminder</string>
+    <string name="boot_reminder_subtitle">Shows a notification after device restart to quickly resume the assistant</string>
+
+    <string name="wake_word_section_title">Wake Word (On-Device)</string>
+    <string name="wake_word_phrase_label">Wake Word Phrase (English)</string>
+    <string name="wake_word_threshold_label">Sensitivity (Threshold)</string>
+    <string name="wake_word_test_btn">Wake Word Live Test Screen</string>
+    <string name="wake_word_test_title">Wake Word Test</string>
+    <string name="wake_word_status_listening">Listening (On-device 16kHz Mono)</string>
+    <string name="wake_word_status_cooldown">Detected (2s Cooldown)</string>
+    <string name="wake_word_status_missing_aar">sherpa-onnx library (AAR) is not added yet</string>
+    <string name="wake_word_status_missing_model">Model files (assets/sherpa-onnx-kws/) not found</string>
+    <string name="wake_word_status_stopped">Engine Stopped</string>
+    <string name="wake_word_missing_hint">The app will never crash without the model or AAR; Floating Bubble, Notification, and Quick Settings Tile continue to work.</string>
+    <string name="wake_word_simulate_trigger">Run Test Trigger</string>
+    <string name="wake_word_live_audio_level">Live Microphone Audio Level</string>
+    <string name="wake_word_detections_log">Recent Detections</string>
+    <string name="wake_word_no_detections">No wake word detections yet</string>
+
+    <string name="privacy_notice_title">Privacy &amp; Audio Disclosure</string>
+    <string name="privacy_notice_body">• Wake word detection runs strictly on-device — audio is never saved to disk or sent over the network.\n• Only after wake does Android SpeechRecognizer start, which uses your device speech service (may use network).</string>
+
+    <string name="triggers_section_title">Quick Launch Triggers</string>
+    <string name="bubble_toggle_title">Floating Bubble</string>
+    <string name="bubble_toggle_subtitle">Draggable edge-snapping button to launch voice sessions</string>
+    <string name="chime_toggle_title">Wake Chime &amp; Vibration</string>
+    <string name="chime_toggle_subtitle">Play a subtle chime and haptic pulse when triggered</string>
+    <string name="add_qs_tile_btn">Add Quick Settings Tile</string>
+    <string name="add_qs_tile_subtitle">One-tap voice session from your Quick Settings panel</string>
+    <string name="qs_tile_added_msg">Quick Settings tile added</string>
+    <string name="qs_tile_manual_hint">Pull down Quick Settings, tap Edit, and drag the \"NOVA AI\" tile into your active tiles.</string>
+    <string name="default_assistant_btn">Set as Default Digital Assistant</string>
+    <string name="default_assistant_subtitle">Select in Android settings to trigger via Home long-press / Assist gesture</string>
+
+    <string name="lockscreen_section_title">Lock Screen Security</string>
+    <string name="lockscreen_low_risk_title">Allow LOW-Risk Actions When Locked</string>
+    <string name="lockscreen_low_risk_subtitle">When off, no tools run on a locked screen. HIGH-risk actions (Call/SMS) are always blocked until unlocked.</string>
+    <string name="lockscreen_unlock_required">Your phone is locked. Please unlock your device to perform this action.</string>
+
+    <string name="battery_schedule_section_title">Battery &amp; Schedule</string>
+    <string name="charging_only_title">Wake Word Only While Charging</string>
+    <string name="charging_only_subtitle">Saves battery by pausing wake word when unplugged</string>
+    <string name="night_schedule_title">Pause at Night (Schedule)</string>
+    <string name="night_schedule_subtitle">Paused from %1$02d:00 to %2$02d:00</string>
+    <string name="night_start_hour_label">Start Hour (Night): %1$02d:00</string>
+    <string name="night_end_hour_label">End Hour (Morning): %1$02d:00</string>
+
+    <string name="overlay_open_in_app">Open in App</string>
+    <string name="overlay_tap_to_stop">Stop</string>
+    <string name="overlay_auto_close_hint">Auto-closes in %1$ds if silent</string>
+
+    <string name="health_check_title">Health Check</string>
+    <string name="health_check_subtitle">Inspect all permissions, battery, and service readiness in one place</string>
+    <string name="health_status_ok">Ready</string>
+    <string name="health_status_issue">Needs Attention</string>
+    <string name="health_fix_btn">Fix</string>
+    <string name="health_mic_title">Microphone Permission</string>
+    <string name="health_notif_title">Notification Permission</string>
+    <string name="health_overlay_title">Display Over Other Apps (Overlay)</string>
+    <string name="health_battery_title">Ignore Battery Optimizations</string>
+    <string name="health_service_title">Background Service State</string>
+    <string name="health_wakeword_title">Wake Word Engine Status</string>
+
+    <string name="battery_guide_title">Battery Optimization Guide</string>
+    <string name="battery_guide_subtitle">Device-specific instructions to keep background service alive</string>
+    <string name="battery_detected_oem">Detected Device Manufacturer: %1$s</string>
+    <string name="battery_ignore_opt_btn">Disable Battery Optimization</string>
+    <string name="battery_open_oem_settings_btn">Open Device Autostart / Battery Settings</string>
+    <string name="battery_dialog_title">Exempt From Battery Optimization</string>
+    <string name="battery_dialog_message">To prevent the OS from killing background listening and the floating bubble, please allow unrestricted background battery usage.</string>
+    <string name="overlay_dialog_title">Display Over Other Apps Permission</string>
+    <string name="overlay_dialog_message">Permission to display over other apps is required to show the floating bubble and compact voice overlay panel.</string>
+    <string name="notif_dialog_title">Notification Permission Required</string>
+    <string name="notif_dialog_message">Android 13+ requires notification permission to display the persistent background listening controls.</string>
+
+    <!-- Phase 5: Accessibility Service, Notification Reader, Screen Understanding & Security -->
+    <string name="app_version_5">NOVA AI 6.0.0 — Developer: ARPON</string>
+    <string name="accessibility_service_label">NOVA AI Screen Helper</string>
+    <string name="accessibility_service_description">Used on your command to read the current screen, safely tap UI buttons, type drafts, and run WhatsApp send recipes. Blocked in banking and password apps.</string>
+    <string name="notification_listener_label">NOVA AI Notification Reader</string>
+
+    <string name="supports_vision_label">Supports Vision / Images (Screenshot AI)</string>
+    <string name="supports_vision_subtitle">Enable if this model can analyze images (e.g. GPT-4o, Gemini, Claude)</string>
+
+    <string name="a11y_settings_card_title">Accessibility &amp; Screen Assistant</string>
+    <string name="a11y_settings_card_subtitle">Setup guide to let the assistant read and assist on screen</string>
+    <string name="notif_reader_card_title">Notification Reader (Notification Access)</string>
+    <string name="notif_reader_card_subtitle">On-demand notification summaries, app filter &amp; enable guide</string>
+    <string name="screen_security_card_title">Screen Security, Blocklist &amp; UI Limits</string>
+    <string name="screen_security_card_subtitle">Sensitive app blocklist, allowlist mode, vision &amp; max steps</string>
+
+    <string name="a11y_status_enabled">Accessibility Service Enabled</string>
+    <string name="a11y_status_disabled">Accessibility Service Disabled</string>
+    <string name="a11y_killed_warning">Warning: Accessibility Service was previously active but stopped by the OS or OEM battery killer. Please re-enable it and check the Battery Guide.</string>
+    <string name="a11y_guide_steps_title">How to Enable (Step-by-Step)</string>
+    <string name="a11y_guide_steps_body">1. Tap \"Open Accessibility Settings\" below.\n2. Look under \"Downloaded apps / Installed services\" for \"NOVA AI Screen Helper\".\n3. Toggle it ON and confirm.</string>
+    <string name="a11y_restricted_title">Android 13+ \"Restricted settings\" Blocked?</string>
+    <string name="a11y_restricted_body">If the Accessibility toggle is greyed out or says \"Restricted setting\" for sideloaded APKs:\n1. Tap \"Open App Info\" below.\n2. Tap the top-right 3-dot menu (⋮).\n3. Select \"Allow restricted settings\" and verify with PIN/biometric.\n4. Return to Accessibility Settings and enable the service.</string>
+    <string name="open_a11y_settings_btn">Open Accessibility Settings</string>
+    <string name="open_app_info_btn">Open App Info</string>
+
+    <string name="notif_access_status_enabled">Notification Access Enabled</string>
+    <string name="notif_access_status_disabled">Notification Access Disabled</string>
+    <string name="notif_guide_steps_title">How to Enable Notification Access</string>
+    <string name="notif_guide_steps_body">1. Tap \"Open Notification Access\" below.\n2. Select \"NOVA AI Notification Reader\" and allow access.\n3. On Android 13+ if greyed out, open App Info → 3-dot menu (⋮) → \"Allow restricted settings\" first.</string>
+    <string name="open_notif_access_btn">Open Notification Access</string>
+    <string name="notif_auto_read_title">Auto-read New Notifications Aloud</string>
+    <string name="notif_auto_read_subtitle">Off by default. When enabled, briefly speaks incoming allowed notifications (OTP/banking excluded).</string>
+    <string name="notif_memory_privacy">• Recent notifications stay strictly in RAM (up to 50 items, max 2 hours) — never saved to disk.\n• Banking, wallet, and OTP/PIN notifications are automatically excluded.</string>
+    <string name="notif_filter_title">Apps Allowed to Read Notifications</string>
+    <string name="notif_filter_all_hint">When no specific apps are selected, all non-banking/non-OTP apps can be summarized.</string>
+    <string name="notif_filter_clear">Reset Filter (All Allowed Apps)</string>
+
+    <string name="security_mode_allowlist_title">Strict Allowlist Mode</string>
+    <string name="security_mode_allowlist_subtitle">When enabled, screen reading &amp; UI tools work ONLY inside apps you explicitly select below.</string>
+    <string name="ui_max_steps_label">Max Steps for UI Tasks: %1$d steps</string>
+    <string name="ui_stop_button_title">Floating \"Stop\" Button During UI Tasks</string>
+    <string name="ui_stop_button_subtitle">Kept enabled for safety so you always see an edge indicator and one-tap Stop button during automation.</string>
+    <string name="screenshot_vision_title">Screenshot Vision Analysis (Android 11+)</string>
+    <string name="screenshot_vision_subtitle">Off by default. Sends an in-memory screenshot only when text reading is incomplete and your model supports vision.</string>
+    <string name="screen_privacy_disclosure_title">Screen &amp; Notification Privacy</string>
+    <string name="screen_privacy_disclosure_body">• When you ask to read a screen or notifications, that text (with passwords &amp; OTPs masked) is sent to your selected AI provider.\n• Password fields are always replaced with \"[লুকানো]\", and full screen snapshots are never saved in action logs.</string>
+    <string name="blocklist_section_title">Sensitive App Blocklist</string>
+    <string name="allowlist_section_title">Allowed Apps (Allowlist)</string>
+    <string name="add_app_package_hint">Select installed apps or add package name</string>
+    <string name="remove_default_warning_title">Warning: Protected Sensitive App!</string>
+    <string name="remove_default_warning_body">\"%1$s\" is protected by default as a banking/wallet/password app. Are you sure you want to remove it from the blocklist?</string>
+    <string name="remove_confirm_btn">Yes, Remove</string>
+
+    <string name="health_a11y_title">Accessibility Service</string>
+    <string name="health_notif_access_title">Notification Access</string>
+
+    <string name="ui_agent_running_banner">AI Controlling Screen</string>
+    <string name="ui_agent_stop_btn">Stop</string>
+    <string name="ui_agent_stopped_by_user">UI automation stopped at your request.</string>
+    <string name="ui_agent_stopped_by_touch">UI automation automatically stopped because you touched the screen.</string>
+    <string name="ui_agent_max_steps_reached">Maximum UI step limit (%1$d steps) reached. Stopped safely.</string>
+
+    <string name="confirm_app_label">App:</string>
+    <string name="confirm_button_label">Button/Element:</string>
+    <string name="confirm_context_label">Context:</string>
+    <string name="confirm_message_label">Message:</string>
+    <string name="search_apps_hint">Search apps...</string>
+
+    <!-- Performance fix: Streaming, Latency & Optimization -->
+    <string name="supports_streaming_label">Streaming Responses</string>
+    <string name="supports_streaming_subtitle">Display tokens live as they arrive instead of waiting (ON by default)</string>
+    <string name="history_limit_title">Chat History Context Limit</string>
+    <string name="history_limit_subtitle">How many recent messages are sent to AI per turn</string>
+    <string name="history_limit_short">Short (6 msgs)</string>
+    <string name="history_limit_medium">Medium (12 msgs)</string>
+    <string name="history_limit_long">Long (24 msgs)</string>
+    <string name="debug_info_toggle_title">Debug Info (Latency)</string>
+    <string name="debug_info_toggle_subtitle">Show build time, TTFT, total time, and token estimate below each reply</string>
+    <string name="ai_thinking">Thinking…</string>
+    <string name="ai_running_tool">Running tool…</string>
+    <string name="ai_running_tool_named">Running tool: %1$s…</string>
+    <string name="stop_generation">Stop</string>
+    <string name="slow_response_warning">Model is responding slowly, you can switch to a faster model</string>
+    <string name="switch_model_shortcut">Switch Model</string>
+    <string name="stream_cancelled_notice">Response generation stopped.</string>
+    <string name="stream_interrupted_error">Network connection dropped mid-stream. Partial answer kept.</string>
+    <string name="debug_latency_summary">Build: %1$dms • TTFT: %2$dms • Total: %3$s • Msgs: %4$d (~%5$d tok) • Tools: %6$d</string>
+    <string name="saved_key_masked_hint">Saved Key: %1$s</string>
+    <string name="clear_api_key">Clear Key</string>
+    <string name="key_status_missing">API Key not set</string>
+
+    <!-- NOVA AI & Automation strings -->
+    <string name="nexa_dashboard_title">NOVA AI Control Center</string>
+    <string name="device_control_title">Device Control</string>
+    <string name="automation_title">Smart Automation &amp; Routines</string>
+    <string name="app_launcher_title">App Launcher &amp; Manager</string>
+    <string name="notification_center_title">Notification Center</string>
+    <string name="permission_center_title">Permission Center</string>
+    <string name="action_history_title">Action History &amp; Logs</string>
+    <string name="custom_commands_title">Custom Voice Commands</string>
+    <string name="flashlight_toggle">Flashlight (Torch)</string>
+    <string name="volume_control_title">Volume Level</string>
+    <string name="brightness_control_title">Screen Brightness</string>
+    <string name="device_info_title">Device &amp; Battery Info</string>
+    <string name="open_settings_panel">System Settings Panels</string>
+    <string name="are_you_still_there">Are you still listening?</string>
+    <string name="continuous_mode_title">Continuous Conversation Mode</string>
+    <string name="continuous_mode_subtitle">Keep listening automatically without tapping mic every time</string>
+    <string name="tab_quick_presets">Popular Providers (Quick)</string>
+    <string name="tab_custom_provider">Custom Provider</string>
+    <string name="select_provider_preset">Select Popular Provider</string>
+    <string name="preset_openrouter_desc">OpenRouter API (OpenAI, Anthropic, Gemini, etc.)</string>
+    <string name="preset_apiqik_desc">APIQIK High-Speed AI API Gateway</string>
+    <string name="preset_wusrouter_desc">WusRouter Free &amp; Fast AI Gateway</string>
+    <string name="preset_xingchi_desc">Xingchi AI Provider</string>
+    <string name="configure_preset">Configure</string>
+
+    <!-- Voice Persona & Professional Output Enhancements -->
+    <string name="voice_persona_title">AI Voice &amp; Character</string>
+    <string name="voice_persona_subtitle">Select or preview your favorite AI voice persona</string>
+    <string name="voice_persona_dialog_title">Select AI Voice Character</string>
+    <string name="voice_persona_preview_btn">Test Voice</string>
+    <string name="voice_persona_stop_btn">Stop</string>
+    <string name="voice_gender_female">Female</string>
+    <string name="voice_gender_male">Male</string>
+    <string name="voice_gender_robot">Robot</string>
+    <string name="voice_gender_custom">Custom</string>
+    <string name="share_message">Share Message</string>
+    <string name="copied_feedback">Copied!</string>
+    <string name="ai_identity_name">NOVA AI</string>
+    <string name="ai_streaming_typing">NOVA AI is typing…</string>
+    <string name="ai_thinking_label">NOVA AI is thinking…</string>
+    <string name="code_block_title">Code Snippet</string>
+    <string name="regenerate_response">Retry</string>
+
+    <!-- Extracted UI strings & Phase 1-4 Features -->
+    <string name="ok">OK</string>
+    <string name="settings_models_subtitle">Add, edit models or configure API keys</string>
+    <string name="settings_device_control_subtitle">Flashlight, volume, battery &amp; system settings panels</string>
+    <string name="settings_automation_subtitle">Manage scheduled reminders and automated routines</string>
+    <string name="settings_app_launcher_subtitle">Search and quickly launch installed apps</string>
+    <string name="settings_notif_center_subtitle">In-memory history of recent notifications</string>
+    <string name="settings_perm_center_subtitle">Microphone and system permission status</string>
+    <string name="voice_persona_rate_pitch">Rate: %1$sx • Pitch: %2$sx</string>
+
+    <!-- Phase 1: Auto Failover -->
+    <string name="failover_settings_title">Auto API Failover</string>
+    <string name="failover_settings_subtitle">Automatically switch to backup models when a model hits limits or errors</string>
+    <string name="failover_enable_title">Enable Auto Failover</string>
+    <string name="failover_enable_subtitle">Retry backup models on 429/5xx/network failures</string>
+    <string name="failover_priority_header">Backup Model Priority Order</string>
+    <string name="failover_reset_cooldowns">Reset All Cooldowns</string>
+    <string name="failover_cooldown_reset_done">All model cooldowns reset</string>
+    <string name="failover_status_ok">Healthy</string>
+    <string name="failover_status_cooldown">Cooldown (%1$ds)</string>
+    <string name="failover_status_no_key">No Key</string>
+    <string name="failover_notice_banner">%1$s is busy, switched to %2$s</string>
+    <string name="failover_move_up">Move up</string>
+    <string name="failover_move_down">Move down</string>
+
+    <!-- Phase 3.1: Web Search -->
+    <string name="web_search_settings_title">Web Search API Keys (Tavily / Brave / SerpAPI)</string>
+    <string name="web_search_settings_subtitle">Add at least one search provider key for live web results</string>
+    <string name="tavily_key_label">Tavily API Key</string>
+    <string name="brave_key_label">Brave Search API Key</string>
+    <string name="serpapi_key_label">SerpAPI Key</string>
+
+    <!-- Phase 3.2: Long-Term Memory -->
+    <string name="memory_screen_title">Long-Term Memory</string>
+    <string name="memory_screen_subtitle">View, add, edit, or delete saved personal facts and preferences</string>
+    <string name="memory_add_btn">Add Memory</string>
+    <string name="memory_empty">No saved memories yet</string>
+    <string name="memory_sensitive_warning">Passwords, OTPs, PINs, or API keys cannot be stored in memory.</string>
+    <string name="memory_clear_all">Clear All Memories</string>
+
+    <!-- Phase 3.3: Attachments -->
+    <string name="attach_file_desc">Attach image or file</string>
+    <string name="attach_sheet_title">Choose Media or File</string>
+    <string name="attach_gallery">Photo from Gallery (Photo Picker)</string>
+    <string name="attach_camera">Take Photo with Camera</string>
+    <string name="attach_document">Text / Code / JSON File</string>
+    <string name="attach_vision_notice">Active model does not support vision; routing to a vision backup model.</string>
+
+    <!-- Phase 3.4: Scheduled Routines -->
+    <string name="routine_add_btn">New Routine</string>
+    <string name="routine_empty">No scheduled routines yet</string>
+    <string name="routine_security_note">For safety, unattended scheduled routines can only run LOW-risk tools.</string>
+
+    <!-- Phase 3.5: Usage Dashboard -->
+    <string name="usage_dashboard_title">Usage &amp; Token Dashboard</string>
+    <string name="usage_dashboard_subtitle">Per-model requests, tokens, and 7-day chart</string>
+    <string name="usage_clear_btn">Clear Stats</string>
+    <string name="usage_empty">No usage stats recorded yet</string>
+
+    <!-- Phase 3.6: Chat Backup / Export & Import -->
+    <string name="backup_card_title">Chat Backup &amp; Export</string>
+    <string name="backup_card_subtitle">Export/Import chats as JSON or Markdown (API keys excluded)</string>
+    <string name="backup_export_json">Export JSON Backup</string>
+    <string name="backup_export_md">Export Markdown</string>
+    <string name="backup_import_json">Import JSON Backup</string>
+
+    <!-- Phase 4: Max Steps -->
+    <string name="standard_max_steps_label">Standard Chat Max Tool Steps: %1$d steps</string>
+
+    <!-- Camera Pill (AI Live Avatar) -->
+    <string name="pill_settings_title">Camera Pill (AI Live Avatar)</string>
+    <string name="pill_settings_subtitle">Animated AI avatar and voice visualizer beside the camera cutout</string>
+    <string name="pill_settings_intro">The Camera Pill is only a visual overlay near the top of the screen. It never opens the physical camera and only uses the audio level already provided by the voice session.</string>
+    <string name="pill_enable_title">Enable Camera Pill</string>
+    <string name="pill_enable_subtitle">Shows the pill above other apps (needs overlay permission)</string>
+    <string name="pill_overlay_permission_title">Overlay permission (display over other apps)</string>
+    <string name="pill_permission_granted">Granted</string>
+    <string name="pill_permission_missing">Not granted — the pill cannot be shown</string>
+    <string name="pill_grant_permission">Grant</string>
+    <string name="pill_status_visible">The pill is currently visible</string>
+    <string name="pill_status_hidden">The pill is currently hidden</string>
+    <string name="pill_preview_button">Preview Camera Pill</string>
+    <string name="pill_preview_note">Preview plays a demo animation and does not use the microphone.</string>
+    <string name="pill_mode_title">Display mode</string>
+    <string name="pill_mode_talking_title">Only while talking</string>
+    <string name="pill_mode_talking_subtitle">Shown while you or NOVA AI speak or a voice request is processed, then hidden after a short delay</string>
+    <string name="pill_mode_always_title">Always on</string>
+    <string name="pill_mode_always_subtitle">Shown while the NOVA AI assistant service or a session is active</string>
+    <string name="pill_idle_delay_label">Hide delay after talking: %1$.1f s</string>
+    <string name="pill_always_needs_service">“Always on” needs background listening (the assistant service) to be running.</string>
+    <string name="pill_avatar_anim_title">Avatar animation</string>
+    <string name="pill_avatar_anim_subtitle">Blinking, subtle motion and glow (static avatar when off)</string>
+    <string name="pill_visualizer_title">Audio visualizer</string>
+    <string name="pill_visualizer_subtitle">Show bars for your voice and a wave for the AI voice</string>
+    <string name="pill_thinking_title">Show AI thinking animation</string>
+    <string name="pill_thinking_subtitle">Animation while the answer is being prepared</string>
+    <string name="pill_speaking_title">Show AI speaking animation</string>
+    <string name="pill_speaking_subtitle">Mouth and voice-wave animation while NOVA AI speaks</string>
+    <string name="pill_size_label">Avatar size: %1$d%%</string>
+    <string name="pill_intensity_label">Animation intensity: %1$d%%</string>
+    <string name="pill_privacy_note">Privacy: no extra audio is recorded for the Camera Pill. When the microphone is active, Android\'s mic indicator and the foreground notification remain visible as usual.</string>
+
+    <!-- Bulk JSON import (Models & API Keys) -->
+    <string name="import_button">Import from JSON</string>
+    <string name="import_button_subtitle">Add multiple models and API keys at once</string>
+    <string name="import_button_cd">Import models and API keys from a JSON file</string>
+    <string name="import_help_cd">View JSON format</string>
+    <string name="import_help_title">JSON file format</string>
+    <string name="import_help_body">The file must be a JSON array (or an object containing a "models" array). Each model needs at least modelName and either provider or baseUrl. apiKey is optional. If provider is openai, anthropic or gemini, baseUrl can be omitted; for other services (e.g. OpenRouter, Groq) baseUrl is required. Duplicates are detected within the file and against existing models. The active model is never changed.</string>
+    <string name="import_help_close">Got it</string>
+    <string name="import_reading_title">Validating file</string>
+    <string name="import_reading_sub">Checking format and required fields…</string>
+    <string name="import_preview_title">Ready to import</string>
+    <string name="import_found_label">Found in file: %1$d models</string>
+    <string name="import_preview_new">New models to add: %1$d</string>
+    <string name="import_preview_dups">Already exist (duplicates): %1$d</string>
+    <string name="import_preview_repeat">Repeated inside the file (skipped): %1$d</string>
+    <string name="import_preview_invalid">Invalid entries (will not be imported): %1$d</string>
+    <string name="import_preview_nokey">%1$d models have no API key; you can add it later via Edit.</string>
+    <string name="import_dup_prompt">How should duplicate models be handled?</string>
+    <string name="import_action_skip">Skip duplicates</string>
+    <string name="import_action_update">Update duplicates</string>
+    <string name="import_action_import">Import</string>
+    <string name="import_importing_title">Importing…</string>
+    <string name="import_importing_sub">Please wait and do not close the app.</string>
+    <string name="import_progress">%1$d / %2$d</string>
+    <string name="import_summary_title">Import complete</string>
+    <string name="import_stat_total">Total models found</string>
+    <string name="import_stat_imported">Successfully imported</string>
+    <string name="import_stat_updated">Updated models</string>
+    <string name="import_stat_skipped">Skipped models</string>
+    <string name="import_stat_failed">Failed imports</string>
+    <string name="import_done_nokey">%1$d new models have no API key — add it with the Edit button on the model card.</string>
+    <string name="import_failed_title">Import failed</string>
+    <string name="import_failed_untouched">Your existing models and API keys were not changed.</string>
+    <string name="import_rejected_header">Entries that were not imported:</string>
+    <string name="import_rejected_row">#%1$d %2$s — %3$s</string>
+    <string name="import_rejected_more">…and %1$d more</string>
+    <string name="import_err_unreadable">The file could not be read. Please choose another file.</string>
+    <string name="import_err_empty">The file is empty.</string>
+    <string name="import_err_too_large">The file is too large (max 2 MB).</string>
+    <string name="import_err_not_json">This is not valid JSON. Check the file format.</string>
+    <string name="import_err_structure">Unsupported JSON structure. Expected an array of models or an object with a "models" array.</string>
+    <string name="import_err_no_models">No models were found in the file.</string>
+    <string name="import_err_too_many">At most 500 models can be imported at once.</string>
+    <string name="import_err_no_valid">The file contains no valid models.</string>
+    <string name="import_err_storage">A storage problem occurred, so the import was cancelled.</string>
+    <string name="import_issue_not_object">entry is not an object</string>
+    <string name="import_issue_no_model">missing modelName</string>
+    <string name="import_issue_no_provider">both provider and baseUrl are missing</string>
+    <string name="import_issue_unknown_provider">unknown provider (add a baseUrl)</string>
+    <string name="import_issue_bad_url">baseUrl is not a valid http/https URL</string>
+    <string name="import_issue_bad_temp">temperature must be between 0 and 2</string>
+    <string name="import_issue_bad_key">apiKey contains spaces or invalid characters</string>
+    <string name="import_issue_too_long">a field is too long</string>
+
+    <!-- Voice engine: Gemini Live / Owner Voice / Hands-free (added in Step 1) -->
+    <string name="voice_engine_title">Voice engine (Gemini Live)</string>
+    <string name="voice_engine_subtitle">Gemini Live voice, Hands-free, Owner Voice</string>
+    <string name="voice_engine_intro">Gemini Live is an additional voice mode. The standard speech recognition + text-to-speech flow stays the default and is used automatically if Gemini Live cannot start or fails.</string>
+    <string name="ve_mode_title">Voice mode</string>
+    <string name="ve_mode_legacy">Standard (speech recognition + TTS)</string>
+    <string name="ve_mode_live">Gemini Live (real-time voice)</string>
+    <string name="ve_mode_live_hint">Live audio is streamed to Google\'s Gemini service while a session is active.</string>
+    <string name="ve_key_title">Gemini API key</string>
+    <string name="ve_key_none">No key saved</string>
+    <string name="ve_key_saved">Saved key: %1$s</string>
+    <string name="ve_key_hint">Paste Gemini API key</string>
+    <string name="ve_key_save">Save</string>
+    <string name="ve_key_clear">Remove key</string>
+    <string name="ve_model_title">Live model id</string>
+    <string name="ve_voice_title">Voice</string>
+    <string name="ve_handsfree_title">Hands-free</string>
+    <string name="ve_handsfree_hint">Keep the live conversation open longer and keep the CPU awake while the screen is off</string>
+    <string name="ve_bt_permission">Allow Bluetooth headset routing</string>
+    <string name="ve_owner_title">Owner Voice</string>
+    <string name="ve_owner_hint">Only your voice is sent to Gemini Live. Uses offline speech models stored on this device. It reduces, but does not eliminate, the chance that someone else is accepted — do not rely on it as a security lock.</string>
+    <string name="ve_models_unavailable">Offline models are not included in this build</string>
+    <string name="ve_models_not_installed">Offline models not installed yet</string>
+    <string name="ve_models_installing">Installing offline models… %1$d%%</string>
+    <string name="ve_models_installed">Offline models installed</string>
+    <string name="ve_models_failed">Offline model install failed</string>
+    <string name="ve_models_install_btn">Install offline models</string>
+    <string name="ve_models_delete_btn">Remove offline models</string>
+    <string name="ve_owner_toggle">Only respond to my voice</string>
+    <string name="ve_strictness_title">Strictness</string>
+    <string name="ve_strict">Strict</string>
+    <string name="ve_balanced">Balanced</string>
+    <string name="ve_relaxed">Relaxed</string>
+    <string name="ve_enroll_title">Enroll your voice</string>
+    <string name="ve_profile_present">A voice profile is saved</string>
+    <string name="ve_profile_absent">No voice profile yet</string>
+    <string name="ve_enroll_progress">Samples: %1$d / %2$d</string>
+    <string name="ve_prompt_1">Say: \"Hey, wake up, I need you\"</string>
+    <string name="ve_prompt_2">Say: \"Please turn on the flashlight\"</string>
+    <string name="ve_prompt_3">Say: \"What is the weather like today?\"</string>
+    <string name="ve_record_btn">Record sample</string>
+    <string name="ve_stop_btn">Stop</string>
+    <string name="ve_test_btn">Test my voice</string>
+    <string name="ve_clear_profile">Delete profile</string>
+    <string name="ve_msg_recording">Listening… speak the phrase, then tap Stop</string>
+    <string name="ve_msg_analyzing">Analyzing voice…</string>
+    <string name="ve_msg_too_short">Recording too short. Speak a full sentence.</string>
+    <string name="ve_msg_no_vector">Could not extract a voice signature. Try again closer to the mic.</string>
+    <string name="ve_msg_sample_ok">Sample saved. Record the next one.</string>
+    <string name="ve_msg_saved">Voice profile saved</string>
+    <string name="ve_msg_save_failed">Could not save the voice profile securely</string>
+    <string name="ve_msg_busy_session">End the active voice session first</string>
+    <string name="ve_msg_mic_failed">Microphone unavailable</string>
+    <string name="ve_msg_models_needed">Install the offline models and record a profile first</string>
+    <string name="ve_test_match">Match — distance %1$s (limit %2$s)</string>
+    <string name="ve_test_nomatch">Not recognized as owner — distance %1$s (limit %2$s)</string>
+    <string name="live_err_no_key">Gemini Live needs an API key. Using standard voice.</string>
+    <string name="live_err_invalid_key">Gemini rejected the API key. Using standard voice.</string>
+    <string name="live_err_quota">Gemini quota exceeded. Using standard voice.</string>
+    <string name="live_err_model">The selected Gemini Live model was rejected. Using standard voice.</string>
+    <string name="live_err_retries">Could not keep a Gemini Live connection. Using standard voice.</string>
+    <string name="live_err_mic">Microphone unavailable for Gemini Live. Using standard voice.</string>
+    <string name="live_err_permission">Microphone permission is missing. Using standard voice.</string>
+    <string name="live_err_owner_profile">Owner Voice is on but no profile is enrolled. Using standard voice.</string>
+    <string name="live_err_owner_models">Owner Voice models are not ready. Using standard voice.</string>
+    <string name="live_err_focus">Another app is using the audio. Using standard voice.</string>
+    <string name="live_status_connecting">Connecting…</string>
+    <string name="live_status_reconnecting">Reconnecting…</string>
+    <string name="live_status_offline">Waiting for network…</string>
+    <string name="perm_desc_location">Approximate (coarse) location permission is needed to report the weather. Precise location and tracking are not used.</string>
+
+    <!-- Automation control (Step 2) -->
+    <string name="automation_control_title">Automation control</string>
+    <string name="automation_control_subtitle">Kill switch, feature toggles, YouTube key</string>
+    <string name="auto_kill_title">Automation kill switch</string>
+    <string name="auto_kill_hint">When on, NO phone automation runs (calls, WhatsApp, YouTube, screen control, Gemini Live tools). Running tasks are stopped immediately.</string>
+    <string name="auto_features_title">Automation features</string>
+    <string name="auto_feat_phone">Phone control (apps, calls, volume, brightness, flashlight, weather)</string>
+    <string name="auto_feat_media">Media keys (pause / resume / next / previous)</string>
+    <string name="auto_feat_web">Open websites</string>
+    <string name="auto_feat_youtube">YouTube (play, search, subscribe, fullscreen)</string>
+    <string name="auto_feat_whatsapp">WhatsApp (message, call, delete message)</string>
+    <string name="auto_feat_screen">Screen control (read, tap, type, scroll)</string>
+    <string name="auto_fast_title">Fast command routing</string>
+    <string name="auto_fast_hint">Run clearly phrased voice commands without asking the AI model. They still go through confirmations and safety checks.</string>
+    <string name="auto_perm_title">Permission status</string>
+    <string name="auto_perm_accessibility">Accessibility service</string>
+    <string name="auto_perm_contacts">Contacts</string>
+    <string name="auto_perm_call">Phone calls</string>
+    <string name="auto_perm_location">Approximate location (weather)</string>
+    <string name="auto_perm_open">Open permission center</string>
+    <string name="auto_yt_title">YouTube API key (optional)</string>
+    <string name="auto_yt_hint">Lets the assistant pick the exact video to play. Without it, YouTube search results are opened. The key is stored encrypted and never logged.</string>
+    <string name="auto_yt_key_hint">Paste YouTube Data API key</string>
+
+    <!-- Appearance (Step 3) -->
+    <string name="theme_sheet_title">Appearance</string>
+    <string name="theme_sheet_hint">Pick a look. Auto follows your light/dark setting.</string>
+    <string name="theme_auto">Auto (light / dark)</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_red">Red</string>
+    <string name="theme_sunset">Sunset</string>
+    <string name="appearance_title">Appearance</string>
+    <string name="appearance_subtitle">Dark, light, red and sunset themes</string>
+
+    <!-- HUD (Step 3) -->
+    <string name="hud_state_idle">Ready</string>
+    <string name="hud_state_listening">Listening</string>
+    <string name="hud_state_thinking">Thinking</string>
+    <string name="hud_state_speaking">Speaking</string>
+    <string name="dock_home">Home</string>
+    <string name="dock_chat">Chat</string>
+    <string name="dock_settings">Settings</string>
+    <string name="dock_mic">Start voice</string>
+    <string name="hud_card_title">HUD home</string>
+    <string name="hud_card_subtitle">Animated orb that follows the assistant\'s state</string>
+
+    <!-- About (Step 3) -->
+    <string name="about_title">About NOVA AI</string>
+    <string name="about_back">Back</string>
+    <string name="about_version">Version %1$s</string>
+    <string name="about_credits_title">Credits</string>
+    <string name="about_open_link">Open JARVIS AI page</string>
+    <string name="about_notices_button">Open-source notices and licence</string>
+    <string name="notices_title">Notices and licence</string>
+    <string name="about_card_title">About NOVA AI</string>
+    <string name="about_card_subtitle">Developer, credits and licences</string>
+</resources>
